@@ -1,0 +1,26 @@
+{
+  "project": "Urban Crime IQ",
+  "purpose": "Phase 9 API assets",
+  "latest_crime_data_date": "2026-09-10",
+  "latest_weather_data_date": "2026-09-10",
+  "community_areas_on_latest_date": 77,
+  "cluster_count": 8,
+  "weather_asset_note": "Historical monthly averages only; not a live weather forecast.",
+  "crime_count_note": "Latest observed daily counts. These are not future predictions.",
+  "cluster_risk_note": "Risk levels represent relative recorded incident counts, not population-adjusted crime risk.",
+  "files": [
+    "area_census.csv",
+    "association_rules.csv",
+    "cluster_centres.csv",
+    "domestic_violent_counts.csv",
+    "domestic_violent_rates.csv",
+    "dropdown_options.json",
+    "historical_monthly_weather.csv",
+    "hotspot_clusters.csv",
+    "latest_area_crime_counts.csv",
+    "manifest.json",
+    "model_metadata.json",
+    "regression_metrics.csv",
+    "tree_metrics.csv"
+  ]
+}

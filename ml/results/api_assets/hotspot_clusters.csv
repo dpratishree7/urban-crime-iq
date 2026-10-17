@@ -1,0 +1,9 @@
+cluster,centre_lat,centre_lon,size,share_pct,top_crime_type,top_crime_share_pct,risk_level,risk_basis
+1,41.88353859629431,-87.72395842167384,26935,17.956666666666667,ALL OTHER,21.076666047893077,High,relative recorded incident count; not population-adjusted risk
+2,41.88704595149702,-87.64351424497765,26212,17.474666666666668,THEFT,35.674500228902794,High,relative recorded incident count; not population-adjusted risk
+0,41.75178827591041,-87.59355235954908,21576,14.384,BATTERY,20.68038561364479,High,relative recorded incident count; not population-adjusted risk
+3,41.96980573558175,-87.67688630327721,19720,13.146666666666668,THEFT,31.50101419878296,Medium,relative recorded incident count; not population-adjusted risk
+6,41.77921015800385,-87.69677026974324,17394,11.596,BATTERY,19.47223180407037,Medium,relative recorded incident count; not population-adjusted risk
+5,41.80934842001818,-87.62528095542277,15349,10.232666666666669,THEFT,19.7016092253567,Low,relative recorded incident count; not population-adjusted risk
+4,41.69710294345151,-87.63251702910921,11849,7.899333333333333,BATTERY,18.887669845556587,Low,relative recorded incident count; not population-adjusted risk
+7,41.94924729480648,-87.77871994601723,10965,7.31,THEFT,23.310533515731876,Low,relative recorded incident count; not population-adjusted risk

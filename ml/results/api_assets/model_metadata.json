@@ -1,0 +1,155 @@
+{
+  "kmeans": {
+    "k": 8,
+    "lat0": 41.846928355134864,
+    "km_per_deg_lat": 110.57,
+    "km_per_deg_lon": 82.92558794092848,
+    "features": [
+      "latitude",
+      "longitude"
+    ],
+    "coordinate_units": "local projected kilometres (approximate)",
+    "selection_method": "command-line override",
+    "sampled_silhouette_score": 0.4102766893256274,
+    "silhouette_sample_size": 10000,
+    "random_state": 42,
+    "risk_levels": {
+      "1": "High",
+      "2": "High",
+      "0": "High",
+      "3": "Medium",
+      "6": "Medium",
+      "5": "Low",
+      "4": "Low",
+      "7": "Low"
+    },
+    "risk_level_basis": "relative cluster incident count; not population-adjusted risk"
+  },
+  "regression": {
+    "features_baseline": [
+      "lag_1",
+      "lag_7",
+      "lag_30",
+      "rolling_7",
+      "rolling_30",
+      "day_of_week",
+      "month",
+      "is_weekend",
+      "is_holiday"
+    ],
+    "features_enhanced": [
+      "lag_1",
+      "lag_7",
+      "lag_30",
+      "rolling_7",
+      "rolling_30",
+      "day_of_week",
+      "month",
+      "is_weekend",
+      "is_holiday",
+      "temperature",
+      "rainfall",
+      "poverty_rate",
+      "per_capita_income",
+      "population"
+    ],
+    "dropped_for_collinearity": [],
+    "metrics": [
+      {
+        "model": "Naive: same as last week (lag_7)",
+        "MAE": 3.315344849325432,
+        "RMSE": 4.670017289975824,
+        "R2": 0.6244138008312349
+      },
+      {
+        "model": "Linear regression: lag + calendar",
+        "MAE": 2.437083911087068,
+        "RMSE": 3.4227279343726504,
+        "R2": 0.7982482049118627
+      },
+      {
+        "model": "Linear regression: + census + weather",
+        "MAE": 2.4305992124287887,
+        "RMSE": 3.4128113671488816,
+        "R2": 0.7994155702497313
+      }
+    ],
+    "train_end": "2024-12-31",
+    "test_start": "2025-01-01"
+  },
+  "tree": {
+    "features": [
+      "hour",
+      "domestic",
+      "day_of_week",
+      "season",
+      "location_group",
+      "community_area",
+      "district"
+    ],
+    "numeric_features": [
+      "hour",
+      "domestic"
+    ],
+    "categorical_features": [
+      "day_of_week",
+      "season",
+      "location_group",
+      "community_area",
+      "district"
+    ],
+    "target": "is_violent",
+    "max_depth": 6,
+    "min_samples_leaf": 500,
+    "class_weight": null,
+    "classes": {
+      "0": "non-violent",
+      "1": "violent"
+    },
+    "train_date_range": [
+      "2023-01-01",
+      "2024-12-31"
+    ],
+    "test_date_range": [
+      "2025-01-01",
+      "2026-09-09"
+    ],
+    "excluded_features": [
+      "primary_type",
+      "crime_group",
+      "iucr",
+      "fbi_code",
+      "description",
+      "month",
+      "year",
+      "date",
+      "split"
+    ],
+    "metrics": [
+      {
+        "model": "Baseline: majority class",
+        "accuracy": 0.6644166402506106,
+        "balanced_accuracy": 0.5,
+        "precision_violent": 0.0,
+        "recall_violent": 0.0,
+        "f1_violent": 0.0
+      },
+      {
+        "model": "Decision Tree (depth=6, leaf=500)",
+        "accuracy": 0.7323756070143286,
+        "balanced_accuracy": 0.6510577524586754,
+        "precision_violent": 0.667357648911047,
+        "recall_violent": 0.40376570698290987,
+        "f1_violent": 0.5031281064693692
+      },
+      {
+        "model": "Balanced Tree (depth=6, leaf=500)",
+        "accuracy": 0.7231082330189157,
+        "balanced_accuracy": 0.6530919493889817,
+        "precision_violent": 0.6239605720651281,
+        "recall_violent": 0.44016859952849285,
+        "f1_violent": 0.5161926925762159
+      }
+    ]
+  }
+}
