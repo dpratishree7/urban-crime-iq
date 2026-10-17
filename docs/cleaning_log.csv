@@ -1,0 +1,6 @@
+step,rows_left
+Raw file,940312
+Removed duplicate IDs,940312
+Dropped rows with missing Community Area,940276
+Dropped unneeded columns,940276
+Cut last 4 weeks (kept up to 2026-09-10),922290
