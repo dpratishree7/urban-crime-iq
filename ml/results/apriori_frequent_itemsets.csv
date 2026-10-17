@@ -1,0 +1,927 @@
+support,itemset
+0.30662666666666666,time_of_day=AFTERNOON
+0.3013866666666667,time_of_day=EVENING
+0.22082666666666667,time_of_day=MORNING
+0.17116,time_of_day=NIGHT
+0.15606666666666666,location_group=COMMERCIAL
+0.04016666666666667,location_group=OTHER
+0.3422133333333333,location_group=RESIDENTIAL
+0.01558,location_group=SCHOOL
+0.4014933333333333,location_group=STREET
+0.04448,location_group=TRANSPORT
+0.14570666666666668,crime_group=ALL OTHER
+0.09156666666666667,crime_group=ASSAULT
+0.18108666666666667,crime_group=BATTERY
+0.03779333333333333,crime_group=BURGLARY
+0.11268,crime_group=CRIMINAL DAMAGE
+0.053393333333333334,crime_group=DECEPTIVE PRACTICE
+0.08843333333333334,crime_group=MOTOR VEHICLE THEFT
+0.06456666666666666,crime_group=OTHER OFFENSE
+0.22477333333333332,crime_group=THEFT
+0.21529333333333334,season=FALL
+0.2689933333333333,season=SPRING
+0.29261333333333334,season=SUMMER
+0.2231,season=WINTER
+0.71146,is_weekend=weekday
+0.28854,is_weekend=weekend
+0.05676,district=D01
+0.051473333333333336,district=D02
+0.052333333333333336,district=D03
+0.05504,district=D04
+0.04004666666666667,district=D05
+0.05772666666666667,district=D06
+0.04241333333333333,district=D07
+0.06377333333333333,district=D08
+0.04514,district=D09
+0.04054,district=D10
+0.05515333333333333,district=D11
+0.062406666666666666,district=D12
+0.03681333333333334,district=D14
+0.03318666666666667,district=D15
+0.03426,district=D16
+0.0304,district=D17
+0.053026666666666666,district=D18
+0.05286,district=D19
+0.02156,district=D20
+0.0311,district=D22
+0.033306666666666665,district=D24
+0.05062666666666667,district=D25
+0.05995333333333333,location_group=COMMERCIAL AND time_of_day=AFTERNOON
+0.015553333333333334,location_group=OTHER AND time_of_day=AFTERNOON
+0.10214,location_group=RESIDENTIAL AND time_of_day=AFTERNOON
+0.10835333333333333,location_group=STREET AND time_of_day=AFTERNOON
+0.0126,location_group=TRANSPORT AND time_of_day=AFTERNOON
+0.04254666666666667,crime_group=ALL OTHER AND time_of_day=AFTERNOON
+0.032113333333333334,crime_group=ASSAULT AND time_of_day=AFTERNOON
+0.05110666666666667,crime_group=BATTERY AND time_of_day=AFTERNOON
+0.026133333333333335,crime_group=CRIMINAL DAMAGE AND time_of_day=AFTERNOON
+0.021446666666666666,crime_group=DECEPTIVE PRACTICE AND time_of_day=AFTERNOON
+0.02002666666666667,crime_group=MOTOR VEHICLE THEFT AND time_of_day=AFTERNOON
+0.021106666666666666,crime_group=OTHER OFFENSE AND time_of_day=AFTERNOON
+0.08337333333333333,crime_group=THEFT AND time_of_day=AFTERNOON
+0.06583333333333333,season=FALL AND time_of_day=AFTERNOON
+0.08314666666666666,season=SPRING AND time_of_day=AFTERNOON
+0.08543333333333333,season=SUMMER AND time_of_day=AFTERNOON
+0.07221333333333334,season=WINTER AND time_of_day=AFTERNOON
+0.22527333333333333,is_weekend=weekday AND time_of_day=AFTERNOON
+0.08135333333333333,is_weekend=weekend AND time_of_day=AFTERNOON
+0.02122,district=D01 AND time_of_day=AFTERNOON
+0.016033333333333333,district=D02 AND time_of_day=AFTERNOON
+0.01526,district=D03 AND time_of_day=AFTERNOON
+0.015866666666666668,district=D04 AND time_of_day=AFTERNOON
+0.011693333333333333,district=D05 AND time_of_day=AFTERNOON
+0.017133333333333334,district=D06 AND time_of_day=AFTERNOON
+0.012853333333333333,district=D07 AND time_of_day=AFTERNOON
+0.01854,district=D08 AND time_of_day=AFTERNOON
+0.0133,district=D09 AND time_of_day=AFTERNOON
+0.01162,district=D10 AND time_of_day=AFTERNOON
+0.01667333333333333,district=D11 AND time_of_day=AFTERNOON
+0.01864,district=D12 AND time_of_day=AFTERNOON
+0.01186,district=D14 AND time_of_day=AFTERNOON
+0.01844,district=D18 AND time_of_day=AFTERNOON
+0.017746666666666668,district=D19 AND time_of_day=AFTERNOON
+0.01046,district=D24 AND time_of_day=AFTERNOON
+0.014333333333333333,district=D25 AND time_of_day=AFTERNOON
+0.04013333333333333,location_group=COMMERCIAL AND time_of_day=EVENING
+0.09582,location_group=RESIDENTIAL AND time_of_day=EVENING
+0.14191333333333334,location_group=STREET AND time_of_day=EVENING
+0.013413333333333333,location_group=TRANSPORT AND time_of_day=EVENING
+0.05042,crime_group=ALL OTHER AND time_of_day=EVENING
+0.025506666666666667,crime_group=ASSAULT AND time_of_day=EVENING
+0.057153333333333334,crime_group=BATTERY AND time_of_day=EVENING
+0.01008,crime_group=BURGLARY AND time_of_day=EVENING
+0.03614666666666667,crime_group=CRIMINAL DAMAGE AND time_of_day=EVENING
+0.03466,crime_group=MOTOR VEHICLE THEFT AND time_of_day=EVENING
+0.018046666666666666,crime_group=OTHER OFFENSE AND time_of_day=EVENING
+0.06079333333333333,crime_group=THEFT AND time_of_day=EVENING
+0.06571333333333333,season=FALL AND time_of_day=EVENING
+0.08097333333333333,season=SPRING AND time_of_day=EVENING
+0.08953333333333334,season=SUMMER AND time_of_day=EVENING
+0.06516666666666666,season=WINTER AND time_of_day=EVENING
+0.21438666666666667,is_weekend=weekday AND time_of_day=EVENING
+0.087,is_weekend=weekend AND time_of_day=EVENING
+0.015933333333333334,district=D01 AND time_of_day=EVENING
+0.015606666666666666,district=D02 AND time_of_day=EVENING
+0.015706666666666667,district=D03 AND time_of_day=EVENING
+0.01676,district=D04 AND time_of_day=EVENING
+0.012773333333333333,district=D05 AND time_of_day=EVENING
+0.01676,district=D06 AND time_of_day=EVENING
+0.012746666666666667,district=D07 AND time_of_day=EVENING
+0.019326666666666666,district=D08 AND time_of_day=EVENING
+0.014346666666666667,district=D09 AND time_of_day=EVENING
+0.012493333333333334,district=D10 AND time_of_day=EVENING
+0.01652,district=D11 AND time_of_day=EVENING
+0.01898,district=D12 AND time_of_day=EVENING
+0.012246666666666666,district=D14 AND time_of_day=EVENING
+0.010453333333333334,district=D15 AND time_of_day=EVENING
+0.01074,district=D16 AND time_of_day=EVENING
+0.01438,district=D18 AND time_of_day=EVENING
+0.015146666666666666,district=D19 AND time_of_day=EVENING
+0.010146666666666667,district=D24 AND time_of_day=EVENING
+0.015573333333333333,district=D25 AND time_of_day=EVENING
+0.03507333333333333,location_group=COMMERCIAL AND time_of_day=MORNING
+0.01126,location_group=OTHER AND time_of_day=MORNING
+0.08456666666666666,location_group=RESIDENTIAL AND time_of_day=MORNING
+0.07405333333333333,location_group=STREET AND time_of_day=MORNING
+0.026426666666666668,crime_group=ALL OTHER AND time_of_day=MORNING
+0.022353333333333333,crime_group=ASSAULT AND time_of_day=MORNING
+0.03588,crime_group=BATTERY AND time_of_day=MORNING
+0.02274,crime_group=CRIMINAL DAMAGE AND time_of_day=MORNING
+0.018093333333333333,crime_group=DECEPTIVE PRACTICE AND time_of_day=MORNING
+0.016566666666666667,crime_group=MOTOR VEHICLE THEFT AND time_of_day=MORNING
+0.017626666666666665,crime_group=OTHER OFFENSE AND time_of_day=MORNING
+0.0534,crime_group=THEFT AND time_of_day=MORNING
+0.04762,season=FALL AND time_of_day=MORNING
+0.06042,season=SPRING AND time_of_day=MORNING
+0.06292,season=SUMMER AND time_of_day=MORNING
+0.04986666666666666,season=WINTER AND time_of_day=MORNING
+0.16485333333333332,is_weekend=weekday AND time_of_day=MORNING
+0.05597333333333333,is_weekend=weekend AND time_of_day=MORNING
+0.012393333333333333,district=D01 AND time_of_day=MORNING
+0.011893333333333334,district=D02 AND time_of_day=MORNING
+0.012193333333333334,district=D03 AND time_of_day=MORNING
+0.01244,district=D04 AND time_of_day=MORNING
+0.012966666666666666,district=D06 AND time_of_day=MORNING
+0.01378,district=D08 AND time_of_day=MORNING
+0.013073333333333333,district=D11 AND time_of_day=MORNING
+0.013633333333333334,district=D12 AND time_of_day=MORNING
+0.01044,district=D18 AND time_of_day=MORNING
+0.011386666666666666,district=D19 AND time_of_day=MORNING
+0.011333333333333334,district=D25 AND time_of_day=MORNING
+0.020906666666666667,location_group=COMMERCIAL AND time_of_day=NIGHT
+0.059686666666666666,location_group=RESIDENTIAL AND time_of_day=NIGHT
+0.07717333333333333,location_group=STREET AND time_of_day=NIGHT
+0.026313333333333334,crime_group=ALL OTHER AND time_of_day=NIGHT
+0.011593333333333334,crime_group=ASSAULT AND time_of_day=NIGHT
+0.03694666666666667,crime_group=BATTERY AND time_of_day=NIGHT
+0.0112,crime_group=BURGLARY AND time_of_day=NIGHT
+0.02766,crime_group=CRIMINAL DAMAGE AND time_of_day=NIGHT
+0.01718,crime_group=MOTOR VEHICLE THEFT AND time_of_day=NIGHT
+0.027206666666666667,crime_group=THEFT AND time_of_day=NIGHT
+0.03612666666666667,season=FALL AND time_of_day=NIGHT
+0.04445333333333333,season=SPRING AND time_of_day=NIGHT
+0.054726666666666667,season=SUMMER AND time_of_day=NIGHT
+0.035853333333333334,season=WINTER AND time_of_day=NIGHT
+0.10694666666666666,is_weekend=weekday AND time_of_day=NIGHT
+0.06421333333333333,is_weekend=weekend AND time_of_day=NIGHT
+0.010866666666666667,district=D06 AND time_of_day=NIGHT
+0.012126666666666666,district=D08 AND time_of_day=NIGHT
+0.011153333333333333,district=D12 AND time_of_day=NIGHT
+0.016893333333333333,crime_group=ALL OTHER AND location_group=COMMERCIAL
+0.013586666666666667,crime_group=ASSAULT AND location_group=COMMERCIAL
+0.016086666666666666,crime_group=BATTERY AND location_group=COMMERCIAL
+0.012793333333333334,crime_group=DECEPTIVE PRACTICE AND location_group=COMMERCIAL
+0.07476666666666666,crime_group=THEFT AND location_group=COMMERCIAL
+0.033326666666666664,location_group=COMMERCIAL AND season=FALL
+0.04185333333333333,location_group=COMMERCIAL AND season=SPRING
+0.04356,location_group=COMMERCIAL AND season=SUMMER
+0.03732666666666667,location_group=COMMERCIAL AND season=WINTER
+0.11100666666666667,is_weekend=weekday AND location_group=COMMERCIAL
+0.04506,is_weekend=weekend AND location_group=COMMERCIAL
+0.019306666666666666,district=D01 AND location_group=COMMERCIAL
+0.01016,district=D12 AND location_group=COMMERCIAL
+0.020933333333333335,district=D18 AND location_group=COMMERCIAL
+0.01398,district=D19 AND location_group=COMMERCIAL
+0.010786666666666667,location_group=OTHER AND season=SPRING
+0.011453333333333333,location_group=OTHER AND season=SUMMER
+0.030153333333333334,is_weekend=weekday AND location_group=OTHER
+0.010013333333333334,is_weekend=weekend AND location_group=OTHER
+0.029593333333333333,crime_group=ALL OTHER AND location_group=RESIDENTIAL
+0.03838,crime_group=ASSAULT AND location_group=RESIDENTIAL
+0.09145333333333333,crime_group=BATTERY AND location_group=RESIDENTIAL
+0.01806666666666667,crime_group=BURGLARY AND location_group=RESIDENTIAL
+0.03976,crime_group=CRIMINAL DAMAGE AND location_group=RESIDENTIAL
+0.0238,crime_group=DECEPTIVE PRACTICE AND location_group=RESIDENTIAL
+0.03726666666666666,crime_group=OTHER OFFENSE AND location_group=RESIDENTIAL
+0.058026666666666664,crime_group=THEFT AND location_group=RESIDENTIAL
+0.07146666666666666,location_group=RESIDENTIAL AND season=FALL
+0.09290666666666667,location_group=RESIDENTIAL AND season=SPRING
+0.098,location_group=RESIDENTIAL AND season=SUMMER
+0.07984,location_group=RESIDENTIAL AND season=WINTER
+0.24196,is_weekend=weekday AND location_group=RESIDENTIAL
+0.10025333333333333,is_weekend=weekend AND location_group=RESIDENTIAL
+0.019853333333333334,district=D02 AND location_group=RESIDENTIAL
+0.02486,district=D03 AND location_group=RESIDENTIAL
+0.025386666666666665,district=D04 AND location_group=RESIDENTIAL
+0.018513333333333333,district=D05 AND location_group=RESIDENTIAL
+0.024853333333333335,district=D06 AND location_group=RESIDENTIAL
+0.017753333333333333,district=D07 AND location_group=RESIDENTIAL
+0.02246,district=D08 AND location_group=RESIDENTIAL
+0.015586666666666667,district=D09 AND location_group=RESIDENTIAL
+0.014413333333333334,district=D10 AND location_group=RESIDENTIAL
+0.01764,district=D11 AND location_group=RESIDENTIAL
+0.016606666666666665,district=D12 AND location_group=RESIDENTIAL
+0.01368,district=D15 AND location_group=RESIDENTIAL
+0.011186666666666666,district=D16 AND location_group=RESIDENTIAL
+0.01416,district=D19 AND location_group=RESIDENTIAL
+0.013006666666666666,district=D22 AND location_group=RESIDENTIAL
+0.01266,district=D24 AND location_group=RESIDENTIAL
+0.0172,district=D25 AND location_group=RESIDENTIAL
+0.014766666666666668,is_weekend=weekday AND location_group=SCHOOL
+0.08246,crime_group=ALL OTHER AND location_group=STREET
+0.029953333333333332,crime_group=ASSAULT AND location_group=STREET
+0.05205333333333333,crime_group=BATTERY AND location_group=STREET
+0.055986666666666664,crime_group=CRIMINAL DAMAGE AND location_group=STREET
+0.07586666666666667,crime_group=MOTOR VEHICLE THEFT AND location_group=STREET
+0.017526666666666666,crime_group=OTHER OFFENSE AND location_group=STREET
+0.07208666666666666,crime_group=THEFT AND location_group=STREET
+0.08856666666666667,location_group=STREET AND season=FALL
+0.10563333333333333,location_group=STREET AND season=SPRING
+0.12507333333333334,location_group=STREET AND season=SUMMER
+0.08222,location_group=STREET AND season=WINTER
+0.2811666666666667,is_weekend=weekday AND location_group=STREET
+0.12032666666666667,is_weekend=weekend AND location_group=STREET
+0.0217,district=D01 AND location_group=STREET
+0.022406666666666665,district=D02 AND location_group=STREET
+0.020266666666666665,district=D03 AND location_group=STREET
+0.0204,district=D04 AND location_group=STREET
+0.015053333333333333,district=D05 AND location_group=STREET
+0.022813333333333335,district=D06 AND location_group=STREET
+0.018053333333333334,district=D07 AND location_group=STREET
+0.02476,district=D08 AND location_group=STREET
+0.018526666666666667,district=D09 AND location_group=STREET
+0.017986666666666668,district=D10 AND location_group=STREET
+0.028773333333333335,district=D11 AND location_group=STREET
+0.0281,district=D12 AND location_group=STREET
+0.015893333333333332,district=D14 AND location_group=STREET
+0.014226666666666667,district=D15 AND location_group=STREET
+0.01174,district=D16 AND location_group=STREET
+0.011486666666666666,district=D17 AND location_group=STREET
+0.01802,district=D18 AND location_group=STREET
+0.01888,district=D19 AND location_group=STREET
+0.01138,district=D22 AND location_group=STREET
+0.012473333333333333,district=D24 AND location_group=STREET
+0.021293333333333334,district=D25 AND location_group=STREET
+0.010606666666666667,crime_group=THEFT AND location_group=TRANSPORT
+0.01222,location_group=TRANSPORT AND season=SPRING
+0.012713333333333333,location_group=TRANSPORT AND season=SUMMER
+0.03240666666666667,is_weekend=weekday AND location_group=TRANSPORT
+0.012073333333333333,is_weekend=weekend AND location_group=TRANSPORT
+0.031746666666666666,crime_group=ALL OTHER AND season=FALL
+0.037533333333333335,crime_group=ALL OTHER AND season=SPRING
+0.0423,crime_group=ALL OTHER AND season=SUMMER
+0.034126666666666666,crime_group=ALL OTHER AND season=WINTER
+0.10408,crime_group=ALL OTHER AND is_weekend=weekday
+0.041626666666666666,crime_group=ALL OTHER AND is_weekend=weekend
+0.01688,crime_group=ALL OTHER AND district=D11
+0.01988,crime_group=ASSAULT AND season=FALL
+0.02546,crime_group=ASSAULT AND season=SPRING
+0.026886666666666666,crime_group=ASSAULT AND season=SUMMER
+0.01934,crime_group=ASSAULT AND season=WINTER
+0.06585333333333333,crime_group=ASSAULT AND is_weekend=weekday
+0.025713333333333335,crime_group=ASSAULT AND is_weekend=weekend
+0.038566666666666666,crime_group=BATTERY AND season=FALL
+0.050993333333333335,crime_group=BATTERY AND season=SPRING
+0.053026666666666666,crime_group=BATTERY AND season=SUMMER
+0.0385,crime_group=BATTERY AND season=WINTER
+0.1216,crime_group=BATTERY AND is_weekend=weekday
+0.05948666666666667,crime_group=BATTERY AND is_weekend=weekend
+0.01114,crime_group=BATTERY AND district=D03
+0.0107,crime_group=BATTERY AND district=D04
+0.011846666666666667,crime_group=BATTERY AND district=D06
+0.01154,crime_group=BATTERY AND district=D08
+0.011513333333333334,crime_group=BATTERY AND district=D11
+0.010293333333333333,crime_group=BURGLARY AND season=SPRING
+0.01114,crime_group=BURGLARY AND season=SUMMER
+0.02791333333333333,crime_group=BURGLARY AND is_weekend=weekday
+0.02432,crime_group=CRIMINAL DAMAGE AND season=FALL
+0.030093333333333333,crime_group=CRIMINAL DAMAGE AND season=SPRING
+0.0343,crime_group=CRIMINAL DAMAGE AND season=SUMMER
+0.023966666666666667,crime_group=CRIMINAL DAMAGE AND season=WINTER
+0.07789333333333333,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday
+0.03478666666666667,crime_group=CRIMINAL DAMAGE AND is_weekend=weekend
+0.0107,crime_group=DECEPTIVE PRACTICE AND season=FALL
+0.015053333333333333,crime_group=DECEPTIVE PRACTICE AND season=SPRING
+0.014573333333333334,crime_group=DECEPTIVE PRACTICE AND season=SUMMER
+0.013066666666666667,crime_group=DECEPTIVE PRACTICE AND season=WINTER
+0.04122666666666667,crime_group=DECEPTIVE PRACTICE AND is_weekend=weekday
+0.012166666666666666,crime_group=DECEPTIVE PRACTICE AND is_weekend=weekend
+0.01906,crime_group=MOTOR VEHICLE THEFT AND season=FALL
+0.023466666666666667,crime_group=MOTOR VEHICLE THEFT AND season=SPRING
+0.025673333333333333,crime_group=MOTOR VEHICLE THEFT AND season=SUMMER
+0.020233333333333332,crime_group=MOTOR VEHICLE THEFT AND season=WINTER
+0.06116,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday
+0.027273333333333333,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekend
+0.0132,crime_group=OTHER OFFENSE AND season=FALL
+0.017446666666666666,crime_group=OTHER OFFENSE AND season=SPRING
+0.018006666666666667,crime_group=OTHER OFFENSE AND season=SUMMER
+0.015913333333333335,crime_group=OTHER OFFENSE AND season=WINTER
+0.04816666666666667,crime_group=OTHER OFFENSE AND is_weekend=weekday
+0.0164,crime_group=OTHER OFFENSE AND is_weekend=weekend
+0.0495,crime_group=THEFT AND season=FALL
+0.058653333333333335,crime_group=THEFT AND season=SPRING
+0.06670666666666666,crime_group=THEFT AND season=SUMMER
+0.04991333333333333,crime_group=THEFT AND season=WINTER
+0.16356666666666667,crime_group=THEFT AND is_weekend=weekday
+0.061206666666666666,crime_group=THEFT AND is_weekend=weekend
+0.020106666666666665,crime_group=THEFT AND district=D01
+0.01146,crime_group=THEFT AND district=D02
+0.012286666666666666,crime_group=THEFT AND district=D08
+0.017133333333333334,crime_group=THEFT AND district=D12
+0.012646666666666667,crime_group=THEFT AND district=D14
+0.02122,crime_group=THEFT AND district=D18
+0.02002,crime_group=THEFT AND district=D19
+0.01014,crime_group=THEFT AND district=D25
+0.15328666666666665,is_weekend=weekday AND season=FALL
+0.06200666666666667,is_weekend=weekend AND season=FALL
+0.012006666666666667,district=D01 AND season=FALL
+0.011046666666666666,district=D02 AND season=FALL
+0.010966666666666666,district=D03 AND season=FALL
+0.01178,district=D04 AND season=FALL
+0.012533333333333334,district=D06 AND season=FALL
+0.013973333333333334,district=D08 AND season=FALL
+0.011753333333333333,district=D11 AND season=FALL
+0.01382,district=D12 AND season=FALL
+0.011273333333333333,district=D18 AND season=FALL
+0.01182,district=D19 AND season=FALL
+0.01068,district=D25 AND season=FALL
+0.19142,is_weekend=weekday AND season=SPRING
+0.07757333333333333,is_weekend=weekend AND season=SPRING
+0.01488,district=D01 AND season=SPRING
+0.013793333333333333,district=D02 AND season=SPRING
+0.014073333333333334,district=D03 AND season=SPRING
+0.01466,district=D04 AND season=SPRING
+0.010846666666666666,district=D05 AND season=SPRING
+0.01584,district=D06 AND season=SPRING
+0.011853333333333334,district=D07 AND season=SPRING
+0.01664,district=D08 AND season=SPRING
+0.011913333333333333,district=D09 AND season=SPRING
+0.011186666666666666,district=D10 AND season=SPRING
+0.014566666666666667,district=D11 AND season=SPRING
+0.016913333333333332,district=D12 AND season=SPRING
+0.014173333333333333,district=D18 AND season=SPRING
+0.01398,district=D19 AND season=SPRING
+0.013773333333333334,district=D25 AND season=SPRING
+0.20684,is_weekend=weekday AND season=SUMMER
+0.08577333333333333,is_weekend=weekend AND season=SUMMER
+0.017166666666666667,district=D01 AND season=SUMMER
+0.01496,district=D02 AND season=SUMMER
+0.0153,district=D03 AND season=SUMMER
+0.016013333333333334,district=D04 AND season=SUMMER
+0.01134,district=D05 AND season=SUMMER
+0.016573333333333332,district=D06 AND season=SUMMER
+0.012526666666666667,district=D07 AND season=SUMMER
+0.018833333333333334,district=D08 AND season=SUMMER
+0.013533333333333333,district=D09 AND season=SUMMER
+0.011846666666666667,district=D10 AND season=SUMMER
+0.0165,district=D11 AND season=SUMMER
+0.01844,district=D12 AND season=SUMMER
+0.01088,district=D14 AND season=SUMMER
+0.0158,district=D18 AND season=SUMMER
+0.01604,district=D19 AND season=SUMMER
+0.014626666666666666,district=D25 AND season=SUMMER
+0.15991333333333332,is_weekend=weekday AND season=WINTER
+0.06318666666666667,is_weekend=weekend AND season=WINTER
+0.012706666666666666,district=D01 AND season=WINTER
+0.011673333333333334,district=D02 AND season=WINTER
+0.011993333333333333,district=D03 AND season=WINTER
+0.012586666666666666,district=D04 AND season=WINTER
+0.01278,district=D06 AND season=WINTER
+0.014326666666666666,district=D08 AND season=WINTER
+0.010026666666666666,district=D09 AND season=WINTER
+0.012333333333333333,district=D11 AND season=WINTER
+0.013233333333333333,district=D12 AND season=WINTER
+0.01178,district=D18 AND season=WINTER
+0.01102,district=D19 AND season=WINTER
+0.011546666666666667,district=D25 AND season=WINTER
+0.0408,district=D01 AND is_weekend=weekday
+0.037053333333333334,district=D02 AND is_weekend=weekday
+0.03760666666666666,district=D03 AND is_weekend=weekday
+0.039086666666666665,district=D04 AND is_weekend=weekday
+0.029066666666666668,district=D05 AND is_weekend=weekday
+0.04162,district=D06 AND is_weekend=weekday
+0.030066666666666665,district=D07 AND is_weekend=weekday
+0.04564666666666667,district=D08 AND is_weekend=weekday
+0.03170666666666667,district=D09 AND is_weekend=weekday
+0.027786666666666668,district=D10 AND is_weekend=weekday
+0.039466666666666664,district=D11 AND is_weekend=weekday
+0.04428,district=D12 AND is_weekend=weekday
+0.02632666666666667,district=D14 AND is_weekend=weekday
+0.02322,district=D15 AND is_weekend=weekday
+0.02493333333333333,district=D16 AND is_weekend=weekday
+0.02194,district=D17 AND is_weekend=weekday
+0.03546666666666667,district=D18 AND is_weekend=weekday
+0.0371,district=D19 AND is_weekend=weekday
+0.015726666666666667,district=D20 AND is_weekend=weekday
+0.022726666666666666,district=D22 AND is_weekend=weekday
+0.023946666666666668,district=D24 AND is_weekend=weekday
+0.03584,district=D25 AND is_weekend=weekday
+0.01596,district=D01 AND is_weekend=weekend
+0.01442,district=D02 AND is_weekend=weekend
+0.014726666666666667,district=D03 AND is_weekend=weekend
+0.015953333333333333,district=D04 AND is_weekend=weekend
+0.01098,district=D05 AND is_weekend=weekend
+0.016106666666666665,district=D06 AND is_weekend=weekend
+0.012346666666666667,district=D07 AND is_weekend=weekend
+0.018126666666666666,district=D08 AND is_weekend=weekend
+0.013433333333333334,district=D09 AND is_weekend=weekend
+0.012753333333333334,district=D10 AND is_weekend=weekend
+0.015686666666666668,district=D11 AND is_weekend=weekend
+0.018126666666666666,district=D12 AND is_weekend=weekend
+0.010486666666666667,district=D14 AND is_weekend=weekend
+0.01756,district=D18 AND is_weekend=weekend
+0.01576,district=D19 AND is_weekend=weekend
+0.014786666666666667,district=D25 AND is_weekend=weekend
+0.03375333333333334,crime_group=THEFT AND location_group=COMMERCIAL AND time_of_day=AFTERNOON
+0.01266,location_group=COMMERCIAL AND season=FALL AND time_of_day=AFTERNOON
+0.016,location_group=COMMERCIAL AND season=SPRING AND time_of_day=AFTERNOON
+0.01646,location_group=COMMERCIAL AND season=SUMMER AND time_of_day=AFTERNOON
+0.014833333333333334,location_group=COMMERCIAL AND season=WINTER AND time_of_day=AFTERNOON
+0.04395333333333333,is_weekend=weekday AND location_group=COMMERCIAL AND time_of_day=AFTERNOON
+0.016,is_weekend=weekend AND location_group=COMMERCIAL AND time_of_day=AFTERNOON
+0.011913333333333333,is_weekend=weekday AND location_group=OTHER AND time_of_day=AFTERNOON
+0.01198,crime_group=ASSAULT AND location_group=RESIDENTIAL AND time_of_day=AFTERNOON
+0.02154,crime_group=BATTERY AND location_group=RESIDENTIAL AND time_of_day=AFTERNOON
+0.01206,crime_group=OTHER OFFENSE AND location_group=RESIDENTIAL AND time_of_day=AFTERNOON
+0.02328,crime_group=THEFT AND location_group=RESIDENTIAL AND time_of_day=AFTERNOON
+0.02126,location_group=RESIDENTIAL AND season=FALL AND time_of_day=AFTERNOON
+0.027426666666666665,location_group=RESIDENTIAL AND season=SPRING AND time_of_day=AFTERNOON
+0.028413333333333332,location_group=RESIDENTIAL AND season=SUMMER AND time_of_day=AFTERNOON
+0.02504,location_group=RESIDENTIAL AND season=WINTER AND time_of_day=AFTERNOON
+0.07403333333333334,is_weekend=weekday AND location_group=RESIDENTIAL AND time_of_day=AFTERNOON
+0.028106666666666665,is_weekend=weekend AND location_group=RESIDENTIAL AND time_of_day=AFTERNOON
+0.022966666666666666,crime_group=ALL OTHER AND location_group=STREET AND time_of_day=AFTERNOON
+0.0103,crime_group=ASSAULT AND location_group=STREET AND time_of_day=AFTERNOON
+0.016106666666666665,crime_group=BATTERY AND location_group=STREET AND time_of_day=AFTERNOON
+0.012286666666666666,crime_group=CRIMINAL DAMAGE AND location_group=STREET AND time_of_day=AFTERNOON
+0.01704,crime_group=MOTOR VEHICLE THEFT AND location_group=STREET AND time_of_day=AFTERNOON
+0.019293333333333332,crime_group=THEFT AND location_group=STREET AND time_of_day=AFTERNOON
+0.024066666666666667,location_group=STREET AND season=FALL AND time_of_day=AFTERNOON
+0.028986666666666668,location_group=STREET AND season=SPRING AND time_of_day=AFTERNOON
+0.031953333333333334,location_group=STREET AND season=SUMMER AND time_of_day=AFTERNOON
+0.02334666666666667,location_group=STREET AND season=WINTER AND time_of_day=AFTERNOON
+0.07817333333333333,is_weekend=weekday AND location_group=STREET AND time_of_day=AFTERNOON
+0.03018,is_weekend=weekend AND location_group=STREET AND time_of_day=AFTERNOON
+0.01136,crime_group=ALL OTHER AND season=SPRING AND time_of_day=AFTERNOON
+0.01162,crime_group=ALL OTHER AND season=SUMMER AND time_of_day=AFTERNOON
+0.010406666666666666,crime_group=ALL OTHER AND season=WINTER AND time_of_day=AFTERNOON
+0.03220666666666667,crime_group=ALL OTHER AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.01034,crime_group=ALL OTHER AND is_weekend=weekend AND time_of_day=AFTERNOON
+0.02404,crime_group=ASSAULT AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.011473333333333334,crime_group=BATTERY AND season=FALL AND time_of_day=AFTERNOON
+0.014473333333333333,crime_group=BATTERY AND season=SPRING AND time_of_day=AFTERNOON
+0.0138,crime_group=BATTERY AND season=SUMMER AND time_of_day=AFTERNOON
+0.01136,crime_group=BATTERY AND season=WINTER AND time_of_day=AFTERNOON
+0.03668,crime_group=BATTERY AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.014426666666666667,crime_group=BATTERY AND is_weekend=weekend AND time_of_day=AFTERNOON
+0.018293333333333335,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.016646666666666667,crime_group=DECEPTIVE PRACTICE AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.013866666666666666,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.015853333333333334,crime_group=OTHER OFFENSE AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.01768,crime_group=THEFT AND season=FALL AND time_of_day=AFTERNOON
+0.02218,crime_group=THEFT AND season=SPRING AND time_of_day=AFTERNOON
+0.023926666666666666,crime_group=THEFT AND season=SUMMER AND time_of_day=AFTERNOON
+0.019586666666666665,crime_group=THEFT AND season=WINTER AND time_of_day=AFTERNOON
+0.06126,crime_group=THEFT AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.022113333333333332,crime_group=THEFT AND is_weekend=weekend AND time_of_day=AFTERNOON
+0.04854,is_weekend=weekday AND season=FALL AND time_of_day=AFTERNOON
+0.017293333333333334,is_weekend=weekend AND season=FALL AND time_of_day=AFTERNOON
+0.06109333333333333,is_weekend=weekday AND season=SPRING AND time_of_day=AFTERNOON
+0.022053333333333335,is_weekend=weekend AND season=SPRING AND time_of_day=AFTERNOON
+0.06255333333333334,is_weekend=weekday AND season=SUMMER AND time_of_day=AFTERNOON
+0.02288,is_weekend=weekend AND season=SUMMER AND time_of_day=AFTERNOON
+0.053086666666666664,is_weekend=weekday AND season=WINTER AND time_of_day=AFTERNOON
+0.019126666666666667,is_weekend=weekend AND season=WINTER AND time_of_day=AFTERNOON
+0.015553333333333334,district=D01 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.011826666666666666,district=D02 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.01122,district=D03 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.011673333333333334,district=D04 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.012713333333333333,district=D06 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.013733333333333334,district=D08 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.012566666666666667,district=D11 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.01388,district=D12 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.01266,district=D18 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.012933333333333333,district=D19 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.01058,district=D25 AND is_weekend=weekday AND time_of_day=AFTERNOON
+0.018873333333333332,crime_group=THEFT AND location_group=COMMERCIAL AND time_of_day=EVENING
+0.01078,location_group=COMMERCIAL AND season=SPRING AND time_of_day=EVENING
+0.010986666666666667,location_group=COMMERCIAL AND season=SUMMER AND time_of_day=EVENING
+0.02818,is_weekend=weekday AND location_group=COMMERCIAL AND time_of_day=EVENING
+0.011953333333333333,is_weekend=weekend AND location_group=COMMERCIAL AND time_of_day=EVENING
+0.012033333333333333,crime_group=ASSAULT AND location_group=RESIDENTIAL AND time_of_day=EVENING
+0.029906666666666668,crime_group=BATTERY AND location_group=RESIDENTIAL AND time_of_day=EVENING
+0.01218,crime_group=CRIMINAL DAMAGE AND location_group=RESIDENTIAL AND time_of_day=EVENING
+0.010093333333333333,crime_group=OTHER OFFENSE AND location_group=RESIDENTIAL AND time_of_day=EVENING
+0.013113333333333333,crime_group=THEFT AND location_group=RESIDENTIAL AND time_of_day=EVENING
+0.020473333333333333,location_group=RESIDENTIAL AND season=FALL AND time_of_day=EVENING
+0.026206666666666666,location_group=RESIDENTIAL AND season=SPRING AND time_of_day=EVENING
+0.027173333333333334,location_group=RESIDENTIAL AND season=SUMMER AND time_of_day=EVENING
+0.021966666666666666,location_group=RESIDENTIAL AND season=WINTER AND time_of_day=EVENING
+0.06811333333333333,is_weekend=weekday AND location_group=RESIDENTIAL AND time_of_day=EVENING
+0.027706666666666668,is_weekend=weekend AND location_group=RESIDENTIAL AND time_of_day=EVENING
+0.03154666666666667,crime_group=ALL OTHER AND location_group=STREET AND time_of_day=EVENING
+0.01738666666666667,crime_group=BATTERY AND location_group=STREET AND time_of_day=EVENING
+0.019353333333333333,crime_group=CRIMINAL DAMAGE AND location_group=STREET AND time_of_day=EVENING
+0.030586666666666668,crime_group=MOTOR VEHICLE THEFT AND location_group=STREET AND time_of_day=EVENING
+0.023766666666666665,crime_group=THEFT AND location_group=STREET AND time_of_day=EVENING
+0.03128,location_group=STREET AND season=FALL AND time_of_day=EVENING
+0.037546666666666666,location_group=STREET AND season=SPRING AND time_of_day=EVENING
+0.044493333333333336,location_group=STREET AND season=SUMMER AND time_of_day=EVENING
+0.02859333333333333,location_group=STREET AND season=WINTER AND time_of_day=EVENING
+0.10093333333333333,is_weekend=weekday AND location_group=STREET AND time_of_day=EVENING
+0.04098,is_weekend=weekend AND location_group=STREET AND time_of_day=EVENING
+0.010113333333333334,district=D12 AND location_group=STREET AND time_of_day=EVENING
+0.011073333333333333,crime_group=ALL OTHER AND season=FALL AND time_of_day=EVENING
+0.012773333333333333,crime_group=ALL OTHER AND season=SPRING AND time_of_day=EVENING
+0.01492,crime_group=ALL OTHER AND season=SUMMER AND time_of_day=EVENING
+0.011653333333333333,crime_group=ALL OTHER AND season=WINTER AND time_of_day=EVENING
+0.03608,crime_group=ALL OTHER AND is_weekend=weekday AND time_of_day=EVENING
+0.01434,crime_group=ALL OTHER AND is_weekend=weekend AND time_of_day=EVENING
+0.017793333333333335,crime_group=ASSAULT AND is_weekend=weekday AND time_of_day=EVENING
+0.011746666666666667,crime_group=BATTERY AND season=FALL AND time_of_day=EVENING
+0.016306666666666667,crime_group=BATTERY AND season=SPRING AND time_of_day=EVENING
+0.017453333333333335,crime_group=BATTERY AND season=SUMMER AND time_of_day=EVENING
+0.011646666666666666,crime_group=BATTERY AND season=WINTER AND time_of_day=EVENING
+0.03917333333333333,crime_group=BATTERY AND is_weekend=weekday AND time_of_day=EVENING
+0.01798,crime_group=BATTERY AND is_weekend=weekend AND time_of_day=EVENING
+0.01084,crime_group=CRIMINAL DAMAGE AND season=SUMMER AND time_of_day=EVENING
+0.025406666666666668,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND time_of_day=EVENING
+0.01074,crime_group=CRIMINAL DAMAGE AND is_weekend=weekend AND time_of_day=EVENING
+0.024346666666666666,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND time_of_day=EVENING
+0.010313333333333334,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekend AND time_of_day=EVENING
+0.013486666666666666,crime_group=OTHER OFFENSE AND is_weekend=weekday AND time_of_day=EVENING
+0.014073333333333334,crime_group=THEFT AND season=FALL AND time_of_day=EVENING
+0.015413333333333333,crime_group=THEFT AND season=SPRING AND time_of_day=EVENING
+0.018286666666666666,crime_group=THEFT AND season=SUMMER AND time_of_day=EVENING
+0.01302,crime_group=THEFT AND season=WINTER AND time_of_day=EVENING
+0.044206666666666665,crime_group=THEFT AND is_weekend=weekday AND time_of_day=EVENING
+0.016586666666666666,crime_group=THEFT AND is_weekend=weekend AND time_of_day=EVENING
+0.04680666666666667,is_weekend=weekday AND season=FALL AND time_of_day=EVENING
+0.018906666666666665,is_weekend=weekend AND season=FALL AND time_of_day=EVENING
+0.057666666666666665,is_weekend=weekday AND season=SPRING AND time_of_day=EVENING
+0.023306666666666667,is_weekend=weekend AND season=SPRING AND time_of_day=EVENING
+0.06359333333333334,is_weekend=weekday AND season=SUMMER AND time_of_day=EVENING
+0.02594,is_weekend=weekend AND season=SUMMER AND time_of_day=EVENING
+0.04632,is_weekend=weekday AND season=WINTER AND time_of_day=EVENING
+0.018846666666666668,is_weekend=weekend AND season=WINTER AND time_of_day=EVENING
+0.011166666666666667,district=D01 AND is_weekend=weekday AND time_of_day=EVENING
+0.011153333333333333,district=D02 AND is_weekend=weekday AND time_of_day=EVENING
+0.011333333333333334,district=D03 AND is_weekend=weekday AND time_of_day=EVENING
+0.011906666666666666,district=D04 AND is_weekend=weekday AND time_of_day=EVENING
+0.012106666666666667,district=D06 AND is_weekend=weekday AND time_of_day=EVENING
+0.013806666666666667,district=D08 AND is_weekend=weekday AND time_of_day=EVENING
+0.01014,district=D09 AND is_weekend=weekday AND time_of_day=EVENING
+0.011746666666666667,district=D11 AND is_weekend=weekday AND time_of_day=EVENING
+0.013493333333333333,district=D12 AND is_weekend=weekday AND time_of_day=EVENING
+0.010666666666666666,district=D19 AND is_weekend=weekday AND time_of_day=EVENING
+0.011053333333333333,district=D25 AND is_weekend=weekday AND time_of_day=EVENING
+0.01744,crime_group=THEFT AND location_group=COMMERCIAL AND time_of_day=MORNING
+0.026226666666666665,is_weekend=weekday AND location_group=COMMERCIAL AND time_of_day=MORNING
+0.019186666666666668,crime_group=BATTERY AND location_group=RESIDENTIAL AND time_of_day=MORNING
+0.01008,crime_group=DECEPTIVE PRACTICE AND location_group=RESIDENTIAL AND time_of_day=MORNING
+0.01066,crime_group=OTHER OFFENSE AND location_group=RESIDENTIAL AND time_of_day=MORNING
+0.014826666666666667,crime_group=THEFT AND location_group=RESIDENTIAL AND time_of_day=MORNING
+0.017406666666666668,location_group=RESIDENTIAL AND season=FALL AND time_of_day=MORNING
+0.02326,location_group=RESIDENTIAL AND season=SPRING AND time_of_day=MORNING
+0.024346666666666666,location_group=RESIDENTIAL AND season=SUMMER AND time_of_day=MORNING
+0.019553333333333332,location_group=RESIDENTIAL AND season=WINTER AND time_of_day=MORNING
+0.06159333333333333,is_weekend=weekday AND location_group=RESIDENTIAL AND time_of_day=MORNING
+0.02297333333333333,is_weekend=weekend AND location_group=RESIDENTIAL AND time_of_day=MORNING
+0.012253333333333333,crime_group=ALL OTHER AND location_group=STREET AND time_of_day=MORNING
+0.010646666666666667,crime_group=CRIMINAL DAMAGE AND location_group=STREET AND time_of_day=MORNING
+0.013653333333333333,crime_group=MOTOR VEHICLE THEFT AND location_group=STREET AND time_of_day=MORNING
+0.015973333333333332,crime_group=THEFT AND location_group=STREET AND time_of_day=MORNING
+0.016453333333333334,location_group=STREET AND season=FALL AND time_of_day=MORNING
+0.019866666666666668,location_group=STREET AND season=SPRING AND time_of_day=MORNING
+0.022186666666666667,location_group=STREET AND season=SUMMER AND time_of_day=MORNING
+0.015546666666666667,location_group=STREET AND season=WINTER AND time_of_day=MORNING
+0.055086666666666666,is_weekend=weekday AND location_group=STREET AND time_of_day=MORNING
+0.018966666666666666,is_weekend=weekend AND location_group=STREET AND time_of_day=MORNING
+0.019626666666666667,crime_group=ALL OTHER AND is_weekend=weekday AND time_of_day=MORNING
+0.01686,crime_group=ASSAULT AND is_weekend=weekday AND time_of_day=MORNING
+0.025253333333333332,crime_group=BATTERY AND is_weekend=weekday AND time_of_day=MORNING
+0.010626666666666666,crime_group=BATTERY AND is_weekend=weekend AND time_of_day=MORNING
+0.01632,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND time_of_day=MORNING
+0.014753333333333334,crime_group=DECEPTIVE PRACTICE AND is_weekend=weekday AND time_of_day=MORNING
+0.012026666666666666,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND time_of_day=MORNING
+0.013526666666666666,crime_group=OTHER OFFENSE AND is_weekend=weekday AND time_of_day=MORNING
+0.011726666666666666,crime_group=THEFT AND season=FALL AND time_of_day=MORNING
+0.0143,crime_group=THEFT AND season=SPRING AND time_of_day=MORNING
+0.015893333333333332,crime_group=THEFT AND season=SUMMER AND time_of_day=MORNING
+0.01148,crime_group=THEFT AND season=WINTER AND time_of_day=MORNING
+0.040613333333333335,crime_group=THEFT AND is_weekend=weekday AND time_of_day=MORNING
+0.012786666666666667,crime_group=THEFT AND is_weekend=weekend AND time_of_day=MORNING
+0.03537333333333333,is_weekend=weekday AND season=FALL AND time_of_day=MORNING
+0.012246666666666666,is_weekend=weekend AND season=FALL AND time_of_day=MORNING
+0.045233333333333334,is_weekend=weekday AND season=SPRING AND time_of_day=MORNING
+0.015186666666666666,is_weekend=weekend AND season=SPRING AND time_of_day=MORNING
+0.046266666666666664,is_weekend=weekday AND season=SUMMER AND time_of_day=MORNING
+0.016653333333333332,is_weekend=weekend AND season=SUMMER AND time_of_day=MORNING
+0.03798,is_weekend=weekday AND season=WINTER AND time_of_day=MORNING
+0.011886666666666667,is_weekend=weekend AND season=WINTER AND time_of_day=MORNING
+0.010266666666666667,district=D08 AND is_weekend=weekday AND time_of_day=MORNING
+0.01034,district=D12 AND is_weekend=weekday AND time_of_day=MORNING
+0.012646666666666667,is_weekend=weekday AND location_group=COMMERCIAL AND time_of_day=NIGHT
+0.02082,crime_group=BATTERY AND location_group=RESIDENTIAL AND time_of_day=NIGHT
+0.012326666666666666,location_group=RESIDENTIAL AND season=FALL AND time_of_day=NIGHT
+0.016013333333333334,location_group=RESIDENTIAL AND season=SPRING AND time_of_day=NIGHT
+0.01806666666666667,location_group=RESIDENTIAL AND season=SUMMER AND time_of_day=NIGHT
+0.01328,location_group=RESIDENTIAL AND season=WINTER AND time_of_day=NIGHT
+0.03822,is_weekend=weekday AND location_group=RESIDENTIAL AND time_of_day=NIGHT
+0.021466666666666665,is_weekend=weekend AND location_group=RESIDENTIAL AND time_of_day=NIGHT
+0.015693333333333333,crime_group=ALL OTHER AND location_group=STREET AND time_of_day=NIGHT
+0.010586666666666666,crime_group=BATTERY AND location_group=STREET AND time_of_day=NIGHT
+0.0137,crime_group=CRIMINAL DAMAGE AND location_group=STREET AND time_of_day=NIGHT
+0.014586666666666666,crime_group=MOTOR VEHICLE THEFT AND location_group=STREET AND time_of_day=NIGHT
+0.013053333333333333,crime_group=THEFT AND location_group=STREET AND time_of_day=NIGHT
+0.016766666666666666,location_group=STREET AND season=FALL AND time_of_day=NIGHT
+0.019233333333333335,location_group=STREET AND season=SPRING AND time_of_day=NIGHT
+0.02644,location_group=STREET AND season=SUMMER AND time_of_day=NIGHT
+0.014733333333333333,location_group=STREET AND season=WINTER AND time_of_day=NIGHT
+0.04697333333333333,is_weekend=weekday AND location_group=STREET AND time_of_day=NIGHT
+0.0302,is_weekend=weekend AND location_group=STREET AND time_of_day=NIGHT
+0.016166666666666666,crime_group=ALL OTHER AND is_weekend=weekday AND time_of_day=NIGHT
+0.010146666666666667,crime_group=ALL OTHER AND is_weekend=weekend AND time_of_day=NIGHT
+0.01026,crime_group=BATTERY AND season=SPRING AND time_of_day=NIGHT
+0.011893333333333334,crime_group=BATTERY AND season=SUMMER AND time_of_day=NIGHT
+0.020493333333333332,crime_group=BATTERY AND is_weekend=weekday AND time_of_day=NIGHT
+0.016453333333333334,crime_group=BATTERY AND is_weekend=weekend AND time_of_day=NIGHT
+0.017873333333333335,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND time_of_day=NIGHT
+0.01092,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND time_of_day=NIGHT
+0.017486666666666668,crime_group=THEFT AND is_weekend=weekday AND time_of_day=NIGHT
+0.022566666666666665,is_weekend=weekday AND season=FALL AND time_of_day=NIGHT
+0.01356,is_weekend=weekend AND season=FALL AND time_of_day=NIGHT
+0.027426666666666665,is_weekend=weekday AND season=SPRING AND time_of_day=NIGHT
+0.017026666666666666,is_weekend=weekend AND season=SPRING AND time_of_day=NIGHT
+0.03442666666666667,is_weekend=weekday AND season=SUMMER AND time_of_day=NIGHT
+0.0203,is_weekend=weekend AND season=SUMMER AND time_of_day=NIGHT
+0.022526666666666667,is_weekend=weekday AND season=WINTER AND time_of_day=NIGHT
+0.013326666666666667,is_weekend=weekend AND season=WINTER AND time_of_day=NIGHT
+0.012066666666666667,crime_group=ALL OTHER AND is_weekend=weekday AND location_group=COMMERCIAL
+0.010033333333333333,crime_group=ASSAULT AND is_weekend=weekday AND location_group=COMMERCIAL
+0.010413333333333333,crime_group=BATTERY AND is_weekend=weekday AND location_group=COMMERCIAL
+0.016253333333333335,crime_group=THEFT AND location_group=COMMERCIAL AND season=FALL
+0.019853333333333334,crime_group=THEFT AND location_group=COMMERCIAL AND season=SPRING
+0.021466666666666665,crime_group=THEFT AND location_group=COMMERCIAL AND season=SUMMER
+0.017193333333333335,crime_group=THEFT AND location_group=COMMERCIAL AND season=WINTER
+0.0532,crime_group=THEFT AND is_weekend=weekday AND location_group=COMMERCIAL
+0.021566666666666668,crime_group=THEFT AND is_weekend=weekend AND location_group=COMMERCIAL
+0.01082,crime_group=THEFT AND district=D01 AND location_group=COMMERCIAL
+0.012613333333333334,crime_group=THEFT AND district=D18 AND location_group=COMMERCIAL
+0.023793333333333333,is_weekend=weekday AND location_group=COMMERCIAL AND season=FALL
+0.029333333333333333,is_weekend=weekday AND location_group=COMMERCIAL AND season=SPRING
+0.01252,is_weekend=weekend AND location_group=COMMERCIAL AND season=SPRING
+0.031133333333333332,is_weekend=weekday AND location_group=COMMERCIAL AND season=SUMMER
+0.012426666666666667,is_weekend=weekend AND location_group=COMMERCIAL AND season=SUMMER
+0.026746666666666665,is_weekend=weekday AND location_group=COMMERCIAL AND season=WINTER
+0.01058,is_weekend=weekend AND location_group=COMMERCIAL AND season=WINTER
+0.013993333333333333,district=D01 AND is_weekend=weekday AND location_group=COMMERCIAL
+0.013786666666666666,district=D18 AND is_weekend=weekday AND location_group=COMMERCIAL
+0.02136,crime_group=ALL OTHER AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.01062,crime_group=ASSAULT AND location_group=RESIDENTIAL AND season=SPRING
+0.011293333333333334,crime_group=ASSAULT AND location_group=RESIDENTIAL AND season=SUMMER
+0.026673333333333334,crime_group=ASSAULT AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.011706666666666667,crime_group=ASSAULT AND is_weekend=weekend AND location_group=RESIDENTIAL
+0.018566666666666665,crime_group=BATTERY AND location_group=RESIDENTIAL AND season=FALL
+0.025813333333333334,crime_group=BATTERY AND location_group=RESIDENTIAL AND season=SPRING
+0.025906666666666668,crime_group=BATTERY AND location_group=RESIDENTIAL AND season=SUMMER
+0.021166666666666667,crime_group=BATTERY AND location_group=RESIDENTIAL AND season=WINTER
+0.060206666666666665,crime_group=BATTERY AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.031246666666666666,crime_group=BATTERY AND is_weekend=weekend AND location_group=RESIDENTIAL
+0.013433333333333334,crime_group=BURGLARY AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.010826666666666667,crime_group=CRIMINAL DAMAGE AND location_group=RESIDENTIAL AND season=SPRING
+0.011913333333333333,crime_group=CRIMINAL DAMAGE AND location_group=RESIDENTIAL AND season=SUMMER
+0.027106666666666668,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.012653333333333334,crime_group=CRIMINAL DAMAGE AND is_weekend=weekend AND location_group=RESIDENTIAL
+0.01898,crime_group=DECEPTIVE PRACTICE AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.01018,crime_group=OTHER OFFENSE AND location_group=RESIDENTIAL AND season=SPRING
+0.01034,crime_group=OTHER OFFENSE AND location_group=RESIDENTIAL AND season=SUMMER
+0.0274,crime_group=OTHER OFFENSE AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.012706666666666666,crime_group=THEFT AND location_group=RESIDENTIAL AND season=FALL
+0.014946666666666667,crime_group=THEFT AND location_group=RESIDENTIAL AND season=SPRING
+0.016686666666666666,crime_group=THEFT AND location_group=RESIDENTIAL AND season=SUMMER
+0.013686666666666666,crime_group=THEFT AND location_group=RESIDENTIAL AND season=WINTER
+0.04276666666666667,crime_group=THEFT AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.01526,crime_group=THEFT AND is_weekend=weekend AND location_group=RESIDENTIAL
+0.05062,is_weekend=weekday AND location_group=RESIDENTIAL AND season=FALL
+0.020846666666666666,is_weekend=weekend AND location_group=RESIDENTIAL AND season=FALL
+0.06555333333333334,is_weekend=weekday AND location_group=RESIDENTIAL AND season=SPRING
+0.027353333333333334,is_weekend=weekend AND location_group=RESIDENTIAL AND season=SPRING
+0.06910666666666666,is_weekend=weekday AND location_group=RESIDENTIAL AND season=SUMMER
+0.028893333333333333,is_weekend=weekend AND location_group=RESIDENTIAL AND season=SUMMER
+0.05668,is_weekend=weekday AND location_group=RESIDENTIAL AND season=WINTER
+0.02316,is_weekend=weekend AND location_group=RESIDENTIAL AND season=WINTER
+0.01418,district=D02 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.01754,district=D03 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.018106666666666667,district=D04 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.013246666666666667,district=D05 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.017766666666666667,district=D06 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.012626666666666666,district=D07 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.015673333333333334,district=D08 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.01082,district=D09 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.012493333333333334,district=D11 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.01172,district=D12 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.010253333333333333,district=D19 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.011953333333333333,district=D25 AND is_weekend=weekday AND location_group=RESIDENTIAL
+0.01806666666666667,crime_group=ALL OTHER AND location_group=STREET AND season=FALL
+0.020686666666666666,crime_group=ALL OTHER AND location_group=STREET AND season=SPRING
+0.024926666666666666,crime_group=ALL OTHER AND location_group=STREET AND season=SUMMER
+0.01878,crime_group=ALL OTHER AND location_group=STREET AND season=WINTER
+0.0579,crime_group=ALL OTHER AND is_weekend=weekday AND location_group=STREET
+0.02456,crime_group=ALL OTHER AND is_weekend=weekend AND location_group=STREET
+0.01282,crime_group=ALL OTHER AND district=D11 AND location_group=STREET
+0.021266666666666666,crime_group=ASSAULT AND is_weekend=weekday AND location_group=STREET
+0.0118,crime_group=BATTERY AND location_group=STREET AND season=FALL
+0.013953333333333333,crime_group=BATTERY AND location_group=STREET AND season=SPRING
+0.01832,crime_group=BATTERY AND location_group=STREET AND season=SUMMER
+0.03408,crime_group=BATTERY AND is_weekend=weekday AND location_group=STREET
+0.017973333333333334,crime_group=BATTERY AND is_weekend=weekend AND location_group=STREET
+0.012626666666666666,crime_group=CRIMINAL DAMAGE AND location_group=STREET AND season=FALL
+0.01466,crime_group=CRIMINAL DAMAGE AND location_group=STREET AND season=SPRING
+0.017366666666666666,crime_group=CRIMINAL DAMAGE AND location_group=STREET AND season=SUMMER
+0.011333333333333334,crime_group=CRIMINAL DAMAGE AND location_group=STREET AND season=WINTER
+0.03872,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND location_group=STREET
+0.017266666666666666,crime_group=CRIMINAL DAMAGE AND is_weekend=weekend AND location_group=STREET
+0.016413333333333332,crime_group=MOTOR VEHICLE THEFT AND location_group=STREET AND season=FALL
+0.02006,crime_group=MOTOR VEHICLE THEFT AND location_group=STREET AND season=SPRING
+0.022053333333333335,crime_group=MOTOR VEHICLE THEFT AND location_group=STREET AND season=SUMMER
+0.01734,crime_group=MOTOR VEHICLE THEFT AND location_group=STREET AND season=WINTER
+0.05234,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND location_group=STREET
+0.023526666666666668,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekend AND location_group=STREET
+0.01306,crime_group=OTHER OFFENSE AND is_weekend=weekday AND location_group=STREET
+0.01626,crime_group=THEFT AND location_group=STREET AND season=FALL
+0.018746666666666665,crime_group=THEFT AND location_group=STREET AND season=SPRING
+0.02263333333333333,crime_group=THEFT AND location_group=STREET AND season=SUMMER
+0.014446666666666667,crime_group=THEFT AND location_group=STREET AND season=WINTER
+0.05248666666666667,crime_group=THEFT AND is_weekend=weekday AND location_group=STREET
+0.0196,crime_group=THEFT AND is_weekend=weekend AND location_group=STREET
+0.06176,is_weekend=weekday AND location_group=STREET AND season=FALL
+0.026806666666666666,is_weekend=weekend AND location_group=STREET AND season=FALL
+0.07428,is_weekend=weekday AND location_group=STREET AND season=SPRING
+0.03135333333333333,is_weekend=weekend AND location_group=STREET AND season=SPRING
+0.08713333333333333,is_weekend=weekday AND location_group=STREET AND season=SUMMER
+0.03794,is_weekend=weekend AND location_group=STREET AND season=SUMMER
+0.057993333333333334,is_weekend=weekday AND location_group=STREET AND season=WINTER
+0.024226666666666667,is_weekend=weekend AND location_group=STREET AND season=WINTER
+0.015253333333333334,district=D01 AND is_weekend=weekday AND location_group=STREET
+0.01576,district=D02 AND is_weekend=weekday AND location_group=STREET
+0.01456,district=D03 AND is_weekend=weekday AND location_group=STREET
+0.01416,district=D04 AND is_weekend=weekday AND location_group=STREET
+0.010886666666666666,district=D05 AND is_weekend=weekday AND location_group=STREET
+0.01636,district=D06 AND is_weekend=weekday AND location_group=STREET
+0.01256,district=D07 AND is_weekend=weekday AND location_group=STREET
+0.017466666666666665,district=D08 AND is_weekend=weekday AND location_group=STREET
+0.012726666666666667,district=D09 AND is_weekend=weekday AND location_group=STREET
+0.011906666666666666,district=D10 AND is_weekend=weekday AND location_group=STREET
+0.020486666666666667,district=D11 AND is_weekend=weekday AND location_group=STREET
+0.019853333333333334,district=D12 AND is_weekend=weekday AND location_group=STREET
+0.011166666666666667,district=D14 AND is_weekend=weekday AND location_group=STREET
+0.01156,district=D18 AND is_weekend=weekday AND location_group=STREET
+0.012846666666666666,district=D19 AND is_weekend=weekday AND location_group=STREET
+0.014933333333333333,district=D25 AND is_weekend=weekday AND location_group=STREET
+0.02276,crime_group=ALL OTHER AND is_weekend=weekday AND season=FALL
+0.026873333333333332,crime_group=ALL OTHER AND is_weekend=weekday AND season=SPRING
+0.01066,crime_group=ALL OTHER AND is_weekend=weekend AND season=SPRING
+0.029773333333333332,crime_group=ALL OTHER AND is_weekend=weekday AND season=SUMMER
+0.012526666666666667,crime_group=ALL OTHER AND is_weekend=weekend AND season=SUMMER
+0.024673333333333332,crime_group=ALL OTHER AND is_weekend=weekday AND season=WINTER
+0.0124,crime_group=ALL OTHER AND district=D11 AND is_weekend=weekday
+0.01436,crime_group=ASSAULT AND is_weekend=weekday AND season=FALL
+0.018526666666666667,crime_group=ASSAULT AND is_weekend=weekday AND season=SPRING
+0.01912,crime_group=ASSAULT AND is_weekend=weekday AND season=SUMMER
+0.013846666666666667,crime_group=ASSAULT AND is_weekend=weekday AND season=WINTER
+0.026273333333333333,crime_group=BATTERY AND is_weekend=weekday AND season=FALL
+0.012293333333333333,crime_group=BATTERY AND is_weekend=weekend AND season=FALL
+0.03416,crime_group=BATTERY AND is_weekend=weekday AND season=SPRING
+0.016833333333333332,crime_group=BATTERY AND is_weekend=weekend AND season=SPRING
+0.034793333333333336,crime_group=BATTERY AND is_weekend=weekday AND season=SUMMER
+0.018233333333333334,crime_group=BATTERY AND is_weekend=weekend AND season=SUMMER
+0.026373333333333332,crime_group=BATTERY AND is_weekend=weekday AND season=WINTER
+0.012126666666666666,crime_group=BATTERY AND is_weekend=weekend AND season=WINTER
+0.0165,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND season=FALL
+0.020906666666666667,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND season=SPRING
+0.023593333333333334,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND season=SUMMER
+0.010706666666666666,crime_group=CRIMINAL DAMAGE AND is_weekend=weekend AND season=SUMMER
+0.016893333333333333,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND season=WINTER
+0.011506666666666667,crime_group=DECEPTIVE PRACTICE AND is_weekend=weekday AND season=SPRING
+0.01136,crime_group=DECEPTIVE PRACTICE AND is_weekend=weekday AND season=SUMMER
+0.013033333333333333,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND season=FALL
+0.016233333333333332,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND season=SPRING
+0.01822,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND season=SUMMER
+0.013673333333333332,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND season=WINTER
+0.013086666666666667,crime_group=OTHER OFFENSE AND is_weekend=weekday AND season=SPRING
+0.01344,crime_group=OTHER OFFENSE AND is_weekend=weekday AND season=SUMMER
+0.01184,crime_group=OTHER OFFENSE AND is_weekend=weekday AND season=WINTER
+0.03606,crime_group=THEFT AND is_weekend=weekday AND season=FALL
+0.01344,crime_group=THEFT AND is_weekend=weekend AND season=FALL
+0.04269333333333333,crime_group=THEFT AND is_weekend=weekday AND season=SPRING
+0.01596,crime_group=THEFT AND is_weekend=weekend AND season=SPRING
+0.04822666666666667,crime_group=THEFT AND is_weekend=weekday AND season=SUMMER
+0.01848,crime_group=THEFT AND is_weekend=weekend AND season=SUMMER
+0.03658666666666667,crime_group=THEFT AND is_weekend=weekday AND season=WINTER
+0.013326666666666667,crime_group=THEFT AND is_weekend=weekend AND season=WINTER
+0.01438,crime_group=THEFT AND district=D01 AND is_weekend=weekday
+0.01252,crime_group=THEFT AND district=D12 AND is_weekend=weekday
+0.0142,crime_group=THEFT AND district=D18 AND is_weekend=weekday
+0.014013333333333333,crime_group=THEFT AND district=D19 AND is_weekend=weekday
+0.010693333333333332,district=D01 AND is_weekend=weekday AND season=SPRING
+0.010286666666666666,district=D03 AND is_weekend=weekday AND season=SPRING
+0.010606666666666667,district=D04 AND is_weekend=weekday AND season=SPRING
+0.011426666666666667,district=D06 AND is_weekend=weekday AND season=SPRING
+0.011933333333333334,district=D08 AND is_weekend=weekday AND season=SPRING
+0.010586666666666666,district=D11 AND is_weekend=weekday AND season=SPRING
+0.01216,district=D12 AND is_weekend=weekday AND season=SPRING
+0.012553333333333333,district=D01 AND is_weekend=weekday AND season=SUMMER
+0.010546666666666666,district=D02 AND is_weekend=weekday AND season=SUMMER
+0.010793333333333334,district=D03 AND is_weekend=weekday AND season=SUMMER
+0.011233333333333333,district=D04 AND is_weekend=weekday AND season=SUMMER
+0.011833333333333333,district=D06 AND is_weekend=weekday AND season=SUMMER
+0.013526666666666666,district=D08 AND is_weekend=weekday AND season=SUMMER
+0.01172,district=D11 AND is_weekend=weekday AND season=SUMMER
+0.013033333333333333,district=D12 AND is_weekend=weekday AND season=SUMMER
+0.010706666666666666,district=D18 AND is_weekend=weekday AND season=SUMMER
+0.010926666666666666,district=D19 AND is_weekend=weekday AND season=SUMMER
+0.010446666666666667,district=D25 AND is_weekend=weekday AND season=SUMMER
+0.01026,district=D08 AND is_weekend=weekday AND season=WINTER
+0.02436,crime_group=THEFT AND is_weekend=weekday AND location_group=COMMERCIAL AND time_of_day=AFTERNOON
+0.01164,is_weekend=weekday AND location_group=COMMERCIAL AND season=SPRING AND time_of_day=AFTERNOON
+0.012173333333333333,is_weekend=weekday AND location_group=COMMERCIAL AND season=SUMMER AND time_of_day=AFTERNOON
+0.010906666666666667,is_weekend=weekday AND location_group=COMMERCIAL AND season=WINTER AND time_of_day=AFTERNOON
+0.01424,crime_group=BATTERY AND is_weekend=weekday AND location_group=RESIDENTIAL AND time_of_day=AFTERNOON
+0.017553333333333334,crime_group=THEFT AND is_weekend=weekday AND location_group=RESIDENTIAL AND time_of_day=AFTERNOON
+0.01544,is_weekend=weekday AND location_group=RESIDENTIAL AND season=FALL AND time_of_day=AFTERNOON
+0.019926666666666665,is_weekend=weekday AND location_group=RESIDENTIAL AND season=SPRING AND time_of_day=AFTERNOON
+0.020533333333333334,is_weekend=weekday AND location_group=RESIDENTIAL AND season=SUMMER AND time_of_day=AFTERNOON
+0.018133333333333335,is_weekend=weekday AND location_group=RESIDENTIAL AND season=WINTER AND time_of_day=AFTERNOON
+0.0169,crime_group=ALL OTHER AND is_weekend=weekday AND location_group=STREET AND time_of_day=AFTERNOON
+0.011686666666666666,crime_group=BATTERY AND is_weekend=weekday AND location_group=STREET AND time_of_day=AFTERNOON
+0.01176,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND location_group=STREET AND time_of_day=AFTERNOON
+0.013926666666666667,crime_group=THEFT AND is_weekend=weekday AND location_group=STREET AND time_of_day=AFTERNOON
+0.01742,is_weekend=weekday AND location_group=STREET AND season=FALL AND time_of_day=AFTERNOON
+0.0209,is_weekend=weekday AND location_group=STREET AND season=SPRING AND time_of_day=AFTERNOON
+0.02316,is_weekend=weekday AND location_group=STREET AND season=SUMMER AND time_of_day=AFTERNOON
+0.016693333333333334,is_weekend=weekday AND location_group=STREET AND season=WINTER AND time_of_day=AFTERNOON
+0.010673333333333333,crime_group=BATTERY AND is_weekend=weekday AND season=SPRING AND time_of_day=AFTERNOON
+0.01308,crime_group=THEFT AND is_weekend=weekday AND season=FALL AND time_of_day=AFTERNOON
+0.01626,crime_group=THEFT AND is_weekend=weekday AND season=SPRING AND time_of_day=AFTERNOON
+0.017313333333333333,crime_group=THEFT AND is_weekend=weekday AND season=SUMMER AND time_of_day=AFTERNOON
+0.014606666666666667,crime_group=THEFT AND is_weekend=weekday AND season=WINTER AND time_of_day=AFTERNOON
+0.013593333333333334,crime_group=THEFT AND is_weekend=weekday AND location_group=COMMERCIAL AND time_of_day=EVENING
+0.02074,crime_group=BATTERY AND is_weekend=weekday AND location_group=RESIDENTIAL AND time_of_day=EVENING
+0.014566666666666667,is_weekend=weekday AND location_group=RESIDENTIAL AND season=FALL AND time_of_day=EVENING
+0.018666666666666668,is_weekend=weekday AND location_group=RESIDENTIAL AND season=SPRING AND time_of_day=EVENING
+0.019306666666666666,is_weekend=weekday AND location_group=RESIDENTIAL AND season=SUMMER AND time_of_day=EVENING
+0.015573333333333333,is_weekend=weekday AND location_group=RESIDENTIAL AND season=WINTER AND time_of_day=EVENING
+0.02278,crime_group=ALL OTHER AND is_weekend=weekday AND location_group=STREET AND time_of_day=EVENING
+0.011733333333333333,crime_group=BATTERY AND is_weekend=weekday AND location_group=STREET AND time_of_day=EVENING
+0.013586666666666667,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND location_group=STREET AND time_of_day=EVENING
+0.02148,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND location_group=STREET AND time_of_day=EVENING
+0.017273333333333335,crime_group=THEFT AND is_weekend=weekday AND location_group=STREET AND time_of_day=EVENING
+0.022206666666666666,is_weekend=weekday AND location_group=STREET AND season=FALL AND time_of_day=EVENING
+0.026886666666666666,is_weekend=weekday AND location_group=STREET AND season=SPRING AND time_of_day=EVENING
+0.01066,is_weekend=weekend AND location_group=STREET AND season=SPRING AND time_of_day=EVENING
+0.03151333333333333,is_weekend=weekday AND location_group=STREET AND season=SUMMER AND time_of_day=EVENING
+0.01298,is_weekend=weekend AND location_group=STREET AND season=SUMMER AND time_of_day=EVENING
+0.020326666666666666,is_weekend=weekday AND location_group=STREET AND season=WINTER AND time_of_day=EVENING
+0.010526666666666667,crime_group=ALL OTHER AND is_weekend=weekday AND season=SUMMER AND time_of_day=EVENING
+0.011,crime_group=BATTERY AND is_weekend=weekday AND season=SPRING AND time_of_day=EVENING
+0.01186,crime_group=BATTERY AND is_weekend=weekday AND season=SUMMER AND time_of_day=EVENING
+0.010266666666666667,crime_group=THEFT AND is_weekend=weekday AND season=FALL AND time_of_day=EVENING
+0.01136,crime_group=THEFT AND is_weekend=weekday AND season=SPRING AND time_of_day=EVENING
+0.013166666666666667,crime_group=THEFT AND is_weekend=weekday AND season=SUMMER AND time_of_day=EVENING
+0.0128,crime_group=THEFT AND is_weekend=weekday AND location_group=COMMERCIAL AND time_of_day=MORNING
+0.012613333333333334,crime_group=BATTERY AND is_weekend=weekday AND location_group=RESIDENTIAL AND time_of_day=MORNING
+0.01118,crime_group=THEFT AND is_weekend=weekday AND location_group=RESIDENTIAL AND time_of_day=MORNING
+0.012626666666666666,is_weekend=weekday AND location_group=RESIDENTIAL AND season=FALL AND time_of_day=MORNING
+0.016973333333333333,is_weekend=weekday AND location_group=RESIDENTIAL AND season=SPRING AND time_of_day=MORNING
+0.0175,is_weekend=weekday AND location_group=RESIDENTIAL AND season=SUMMER AND time_of_day=MORNING
+0.014493333333333334,is_weekend=weekday AND location_group=RESIDENTIAL AND season=WINTER AND time_of_day=MORNING
+0.012526666666666667,crime_group=THEFT AND is_weekend=weekday AND location_group=STREET AND time_of_day=MORNING
+0.012093333333333333,is_weekend=weekday AND location_group=STREET AND season=FALL AND time_of_day=MORNING
+0.014806666666666666,is_weekend=weekday AND location_group=STREET AND season=SPRING AND time_of_day=MORNING
+0.01634,is_weekend=weekday AND location_group=STREET AND season=SUMMER AND time_of_day=MORNING
+0.011846666666666667,is_weekend=weekday AND location_group=STREET AND season=WINTER AND time_of_day=MORNING
+0.0107,crime_group=THEFT AND is_weekend=weekday AND season=SPRING AND time_of_day=MORNING
+0.01222,crime_group=THEFT AND is_weekend=weekday AND season=SUMMER AND time_of_day=MORNING
+0.012613333333333334,crime_group=BATTERY AND is_weekend=weekday AND location_group=RESIDENTIAL AND time_of_day=NIGHT
+0.011766666666666667,is_weekend=weekday AND location_group=RESIDENTIAL AND season=SUMMER AND time_of_day=NIGHT
+0.01004,is_weekend=weekday AND location_group=STREET AND season=FALL AND time_of_day=NIGHT
+0.011686666666666666,is_weekend=weekday AND location_group=STREET AND season=SPRING AND time_of_day=NIGHT
+0.01612,is_weekend=weekday AND location_group=STREET AND season=SUMMER AND time_of_day=NIGHT
+0.01032,is_weekend=weekend AND location_group=STREET AND season=SUMMER AND time_of_day=NIGHT
+0.01152,crime_group=THEFT AND is_weekend=weekday AND location_group=COMMERCIAL AND season=FALL
+0.013946666666666666,crime_group=THEFT AND is_weekend=weekday AND location_group=COMMERCIAL AND season=SPRING
+0.015406666666666667,crime_group=THEFT AND is_weekend=weekday AND location_group=COMMERCIAL AND season=SUMMER
+0.012326666666666666,crime_group=THEFT AND is_weekend=weekday AND location_group=COMMERCIAL AND season=WINTER
+0.0124,crime_group=BATTERY AND is_weekend=weekday AND location_group=RESIDENTIAL AND season=FALL
+0.01692,crime_group=BATTERY AND is_weekend=weekday AND location_group=RESIDENTIAL AND season=SPRING
+0.016966666666666668,crime_group=BATTERY AND is_weekend=weekday AND location_group=RESIDENTIAL AND season=SUMMER
+0.01392,crime_group=BATTERY AND is_weekend=weekday AND location_group=RESIDENTIAL AND season=WINTER
+0.010966666666666666,crime_group=THEFT AND is_weekend=weekday AND location_group=RESIDENTIAL AND season=SPRING
+0.01226,crime_group=THEFT AND is_weekend=weekday AND location_group=RESIDENTIAL AND season=SUMMER
+0.010126666666666667,crime_group=THEFT AND is_weekend=weekday AND location_group=RESIDENTIAL AND season=WINTER
+0.01272,crime_group=ALL OTHER AND is_weekend=weekday AND location_group=STREET AND season=FALL
+0.0144,crime_group=ALL OTHER AND is_weekend=weekday AND location_group=STREET AND season=SPRING
+0.0174,crime_group=ALL OTHER AND is_weekend=weekday AND location_group=STREET AND season=SUMMER
+0.01338,crime_group=ALL OTHER AND is_weekend=weekday AND location_group=STREET AND season=WINTER
+0.011606666666666666,crime_group=BATTERY AND is_weekend=weekday AND location_group=STREET AND season=SUMMER
+0.010146666666666667,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND location_group=STREET AND season=SPRING
+0.012026666666666666,crime_group=CRIMINAL DAMAGE AND is_weekend=weekday AND location_group=STREET AND season=SUMMER
+0.011126666666666667,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND location_group=STREET AND season=FALL
+0.013893333333333334,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND location_group=STREET AND season=SPRING
+0.015646666666666666,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND location_group=STREET AND season=SUMMER
+0.011673333333333334,crime_group=MOTOR VEHICLE THEFT AND is_weekend=weekday AND location_group=STREET AND season=WINTER
+0.011786666666666668,crime_group=THEFT AND is_weekend=weekday AND location_group=STREET AND season=FALL
+0.013946666666666666,crime_group=THEFT AND is_weekend=weekday AND location_group=STREET AND season=SPRING
+0.0162,crime_group=THEFT AND is_weekend=weekday AND location_group=STREET AND season=SUMMER
+0.010553333333333333,crime_group=THEFT AND is_weekend=weekday AND location_group=STREET AND season=WINTER
