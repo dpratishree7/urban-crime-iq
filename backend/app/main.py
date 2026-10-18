@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from .routers import meta
+
 app = FastAPI(title="Crime Intelligence API")
 
 app.add_middleware(
@@ -9,6 +11,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(meta.router)
+
 
 @app.get("/api/health")
 def health():
