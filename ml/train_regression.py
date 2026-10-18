@@ -41,7 +41,9 @@ print(f"Test : {len(test):,} rows ({test.date.min().date()} to {test.date.max().
 TARGET = "crime_count"
 
 # ---- feature groups (Master Plan, 8.2)
-HISTORY = ["lag_1", "lag_7", "lag_30", "rolling_7", "rolling_30"]
+HISTORY_ALL = ["lag_1", "lag_7", "lag_30", "rolling_7", "rolling_30"]
+DROP_HISTORY = ["rolling_7"]
+HISTORY = [h for h in HISTORY_ALL if h not in DROP_HISTORY]
 CAL_CAT = ["day_of_week", "month"]                 # one-hot encoded
 CAL_BIN = ["is_weekend", "is_holiday"]
 WEATHER = ["temperature", "rainfall"]
@@ -50,7 +52,7 @@ CENSUS = ["poverty_rate", "per_capita_income", "population"]
 # ---- multicollinearity check on the census trio (+ VIF for every enhanced feature)
 corr = train[CENSUS].corr()
 print("\nCensus feature correlations (train):\n", corr.round(2).to_string())
-dropped = []
+dropped = list(DROP_HISTORY)
 if abs(corr.loc["poverty_rate", "per_capita_income"]) > 0.8:
     dropped.append("per_capita_income")            # plan: drop one if highly correlated
     print("\n|corr(poverty_rate, per_capita_income)| > 0.8 -> dropping per_capita_income")
@@ -68,6 +70,10 @@ num_for_vif = HISTORY + CAL_BIN + WEATHER + census_used
 vif = vif_table(train[num_for_vif].astype(float))
 vif.to_csv(RESULTS/"regression_vif.csv", index=False)
 print("\nVIF (numeric features, train) - lag/rolling overlap is expected:\n", vif.round(2).to_string(index=False))
+
+vif_before = vif_table(train[HISTORY_ALL + CAL_BIN + WEATHER + census_used].astype(float))
+vif_before.to_csv(RESULTS/"regression_vif_before.csv", index=False)
+print("\nVIF BEFORE dropping", DROP_HISTORY, ":\n", vif_before.round(2).to_string(index=False))
 
 def make_pipeline(numeric, binary):
     pre = ColumnTransformer([
