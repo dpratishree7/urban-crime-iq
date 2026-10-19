@@ -1,7 +1,7 @@
 {
   "project": "Urban Crime IQ",
   "purpose": "Phase 9 API assets",
-  "latest_crime_data_date": "2026-09-10",
+  "latest_crime_data_date": "2026-09-09",
   "latest_weather_data_date": "2026-09-10",
   "community_areas_on_latest_date": 77,
   "cluster_count": 8,

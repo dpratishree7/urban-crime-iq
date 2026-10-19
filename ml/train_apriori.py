@@ -18,7 +18,7 @@ Expected categories:
 
 Final configuration:
     min_support = 0.01
-    min_confidence = 0.50
+    min_confidence = 0.30
     max_len = 4
 
 Outputs:
@@ -51,7 +51,7 @@ for folder in (MODELS, RESULTS):
 # At 0.01, four positive-lift crime rules were discovered.
 SEED_SUPPORTS = [0.01]
 
-MIN_CONFIDENCE = 0.50
+MIN_CONFIDENCE = 0.30
 MAX_LEN = 4
 
 EXPECTED_GROUPS = [
