@@ -1,9 +1,9 @@
 cluster,centre_lat,centre_lon,size,share_pct,top_crime_type,top_crime_share_pct,risk_level,risk_basis
-1,41.88353859629431,-87.72395842167384,26935,17.956666666666667,ALL OTHER,21.076666047893074,High,relative recorded incident count; not population-adjusted risk
-2,41.88704595149702,-87.64351424497765,26212,17.474666666666668,THEFT,35.674500228902794,High,relative recorded incident count; not population-adjusted risk
-0,41.75178827591041,-87.59355235954908,21576,14.384,BATTERY,20.68038561364479,High,relative recorded incident count; not population-adjusted risk
-3,41.96980573558175,-87.67688630327721,19720,13.146666666666668,THEFT,31.50101419878296,Medium,relative recorded incident count; not population-adjusted risk
-6,41.77921015800385,-87.69677026974324,17394,11.596,BATTERY,19.47223180407037,Medium,relative recorded incident count; not population-adjusted risk
-5,41.80934842001818,-87.62528095542277,15349,10.232666666666667,THEFT,19.7016092253567,Low,relative recorded incident count; not population-adjusted risk
-4,41.69710294345151,-87.63251702910921,11849,7.899333333333333,BATTERY,18.887669845556587,Low,relative recorded incident count; not population-adjusted risk
-7,41.949247294806476,-87.77871994601723,10965,7.31,THEFT,23.310533515731873,Low,relative recorded incident count; not population-adjusted risk
+7,41.883674907691876,-87.72398378698045,26775,17.849999999999998,ALL OTHER,21.41176470588235,High,relative recorded incident count; not population-adjusted risk
+6,41.88719382347414,-87.64368407366887,26197,17.464666666666666,THEFT,35.477344734129865,High,relative recorded incident count; not population-adjusted risk
+4,41.75128652374007,-87.5921031646818,21314,14.209333333333332,BATTERY,20.80322792530731,High,relative recorded incident count; not population-adjusted risk
+0,41.9695705692572,-87.67666777276344,19716,13.144,THEFT,31.624061675796305,Medium,relative recorded incident count; not population-adjusted risk
+1,41.77854356398256,-87.69551851212474,17951,11.967333333333334,BATTERY,19.01286836387945,Medium,relative recorded incident count; not population-adjusted risk
+5,41.80949224474616,-87.6244698377295,15061,10.040666666666667,THEFT,20.257619016001595,Low,relative recorded incident count; not population-adjusted risk
+2,41.69702908258684,-87.63242381249778,11971,7.980666666666666,BATTERY,18.686826497368642,Low,relative recorded incident count; not population-adjusted risk
+3,41.94950341850721,-87.77803535386064,11015,7.343333333333334,THEFT,23.141171130276895,Low,relative recorded incident count; not population-adjusted risk

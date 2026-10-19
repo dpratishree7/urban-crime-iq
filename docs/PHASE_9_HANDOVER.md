@@ -45,13 +45,17 @@ Generated under `ml/results/api_assets/`:
 
 ## Evaluation caveats
 
-- Regression test performance: enhanced model MAE 2.4306, RMSE 3.4128, R² 0.7994.
-- The enhanced model's improvement over lag + calendar is marginal.
+- Regression test performance on the corrected dataset:
+  - Naive lag-7 baseline: MAE 3.3075, RMSE 4.6542, R² 0.6268.
+  - Linear regression (lag + calendar): MAE 2.4281, RMSE 3.3977, R² 0.8011.
+  - Linear regression (+ census + weather): MAE 2.4212, RMSE 3.3872, R² 0.8024.
+- The enhanced regression model provides only a marginal improvement over the lag + calendar model.
+- `rolling_7` was dropped due to multicollinearity during regression feature selection.
 - Domestic status and violent classification are associated in the dataset; this is descriptive and not causal evidence.
 - Association rules describe co-occurrence, not causation.
+- The Decision Tree's balanced accuracy and F1-score should be considered alongside accuracy because the classes are imbalanced.
+- K-Means risk tiers represent relative recorded incident counts, not population-adjusted crime risk.
 
 ## Ownership boundary
 
 Phase 9 provides model artifacts, metadata, and precomputed assets. Backend API endpoints, frontend UI implementation, and end-to-end integration remain with their assigned owners.
-
-
