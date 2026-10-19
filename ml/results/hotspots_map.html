@@ -3,13 +3,6 @@
 <head>
 
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
-        <style>
-        .leaflet-container {
-            background: #1b1b1b !important;
-        }
-        </style>
-
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -24,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_177e961768fcc8ef1036f26f557f2720 {
+                #map_05c2f05c09007cf0348166ee3a1800b5 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -61,36 +54,16 @@
 <body>
 
 
-<div style="
-position:fixed;
-bottom:30px;
-left:30px;
-z-index:9999;
-background:#252525;
-color:white;
-padding:12px 15px;
-border:1px solid #666;
-border-radius:8px;
-font-family:Arial,sans-serif;
-font-size:13px;
-">
-<b>Relative incident-volume tiers</b><br>
-<span style="color:#ef4444;">&#9679;</span> High<br>
-<span style="color:#f59e0b;">&#9679;</span> Medium<br>
-<span style="color:#eab308;">&#9679;</span> Low<br>
-<small>Not population-adjusted risk</small>
-</div>
-
-            <div class="folium-map" id="map_177e961768fcc8ef1036f26f557f2720" ></div>
+            <div class="folium-map" id="map_05c2f05c09007cf0348166ee3a1800b5" ></div>
 
 </body>
 <script>
 
 
-            var map_177e961768fcc8ef1036f26f557f2720 = L.map(
-                "map_177e961768fcc8ef1036f26f557f2720",
+            var map_05c2f05c09007cf0348166ee3a1800b5 = L.map(
+                "map_05c2f05c09007cf0348166ee3a1800b5",
                 {
-                    center: [41.84088592194544, -87.67139994122128],
+                    center: [41.84667666716767, -87.66826482769011],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 10,
@@ -100,38 +73,37 @@ font-size:13px;
 
                 }
             );
-            L.control.scale().addTo(map_177e961768fcc8ef1036f26f557f2720);
 
 
 
 
 
-            var circle_marker_c79e1d872d29aaef58f8035dc3875f19 = L.circleMarker(
-                [41.88353859629431, -87.72395842167384],
-                {"bubblingMouseEvents": true, "color": "#ef4444", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ef4444", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.569666666666667, "stroke": true, "weight": 2}
-            ).addTo(map_177e961768fcc8ef1036f26f557f2720);
+            var circle_marker_d998edbdbe31933be3b06122fa80fd7d = L.circleMarker(
+                [41.883674907691876, -87.72398378698045],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.0, "stroke": true, "weight": 3}
+            ).addTo(map_05c2f05c09007cf0348166ee3a1800b5);
 
 
-        var popup_586bd55654e00af27891f0af1b603d58 = L.popup({
-  "maxWidth": 330,
+        var popup_bca749c358bbd0888a056e83e3fb624d = L.popup({
+  "maxWidth": 320,
 });
 
 
 
-                var html_459638170e7b8d13946d1201286010fb = $(`<div id="html_459638170e7b8d13946d1201286010fb" style="width: 100.0%; height: 100.0%;">     <div style="font-family:Arial,sans-serif;min-width:220px;">         <h3 style="margin:0 0 8px;">Cluster 1</h3>         <b>Relative incident-volume tier:</b> High<br>         <b>Sample incidents:</b> 26,935<br>         <b>Sample share:</b> 17.96%<br>         <b>Most common crime group:</b> ALL OTHER<br>         <b>Top group share:</b> 21.1%<br>         <hr>         <i>Not a population-adjusted crime-risk measure.</i>     </div>     </div>`)[0];
-                popup_586bd55654e00af27891f0af1b603d58.setContent(html_459638170e7b8d13946d1201286010fb);
+                var html_91a3263493cb454f941c53951224a98b = $(`<div id="html_91a3263493cb454f941c53951224a98b" style="width: 100.0%; height: 100.0%;"><b>Cluster 7</b><br>Relative incident-volume tier: High<br>Recorded incidents in sample: 26,775<br>Sample share: 17.85%<br>Most common crime group: ALL OTHER<br>Top group share: 21.4%</div>`)[0];
+                popup_bca749c358bbd0888a056e83e3fb624d.setContent(html_91a3263493cb454f941c53951224a98b);
 
 
 
-        circle_marker_c79e1d872d29aaef58f8035dc3875f19.bindPopup(popup_586bd55654e00af27891f0af1b603d58)
+        circle_marker_d998edbdbe31933be3b06122fa80fd7d.bindPopup(popup_bca749c358bbd0888a056e83e3fb624d)
         ;
 
 
 
 
-            circle_marker_c79e1d872d29aaef58f8035dc3875f19.bindTooltip(
+            circle_marker_d998edbdbe31933be3b06122fa80fd7d.bindTooltip(
                 `<div>
-                     Cluster 1 | High volume tier
+                     Cluster 7 — High volume tier
                  </div>`,
                 {
   "sticky": true,
@@ -139,32 +111,32 @@ font-size:13px;
             );
 
 
-            var circle_marker_546ecbffeab64913851a4891dc3166f0 = L.circleMarker(
-                [41.88704595149702, -87.64351424497765],
-                {"bubblingMouseEvents": true, "color": "#ef4444", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ef4444", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.232266666666668, "stroke": true, "weight": 2}
-            ).addTo(map_177e961768fcc8ef1036f26f557f2720);
+            var circle_marker_acdd7201e3d429d8f33faa3c38e7b930 = L.circleMarker(
+                [41.88719382347414, -87.64368407366887],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.0, "stroke": true, "weight": 3}
+            ).addTo(map_05c2f05c09007cf0348166ee3a1800b5);
 
 
-        var popup_1d5cbe0a5f80acf9426b4b1060745296 = L.popup({
-  "maxWidth": 330,
+        var popup_b61ef4c5b8a5d6f3294054c13cb37b72 = L.popup({
+  "maxWidth": 320,
 });
 
 
 
-                var html_9868df57cd04121a0c7a78bfff548939 = $(`<div id="html_9868df57cd04121a0c7a78bfff548939" style="width: 100.0%; height: 100.0%;">     <div style="font-family:Arial,sans-serif;min-width:220px;">         <h3 style="margin:0 0 8px;">Cluster 2</h3>         <b>Relative incident-volume tier:</b> High<br>         <b>Sample incidents:</b> 26,212<br>         <b>Sample share:</b> 17.47%<br>         <b>Most common crime group:</b> THEFT<br>         <b>Top group share:</b> 35.7%<br>         <hr>         <i>Not a population-adjusted crime-risk measure.</i>     </div>     </div>`)[0];
-                popup_1d5cbe0a5f80acf9426b4b1060745296.setContent(html_9868df57cd04121a0c7a78bfff548939);
+                var html_5a45dec31f111a307fb3a4b08be6084c = $(`<div id="html_5a45dec31f111a307fb3a4b08be6084c" style="width: 100.0%; height: 100.0%;"><b>Cluster 6</b><br>Relative incident-volume tier: High<br>Recorded incidents in sample: 26,197<br>Sample share: 17.46%<br>Most common crime group: THEFT<br>Top group share: 35.5%</div>`)[0];
+                popup_b61ef4c5b8a5d6f3294054c13cb37b72.setContent(html_5a45dec31f111a307fb3a4b08be6084c);
 
 
 
-        circle_marker_546ecbffeab64913851a4891dc3166f0.bindPopup(popup_1d5cbe0a5f80acf9426b4b1060745296)
+        circle_marker_acdd7201e3d429d8f33faa3c38e7b930.bindPopup(popup_b61ef4c5b8a5d6f3294054c13cb37b72)
         ;
 
 
 
 
-            circle_marker_546ecbffeab64913851a4891dc3166f0.bindTooltip(
+            circle_marker_acdd7201e3d429d8f33faa3c38e7b930.bindTooltip(
                 `<div>
-                     Cluster 2 | High volume tier
+                     Cluster 6 — High volume tier
                  </div>`,
                 {
   "sticky": true,
@@ -172,32 +144,32 @@ font-size:13px;
             );
 
 
-            var circle_marker_6775a73516b23b49a85db00e0191ec31 = L.circleMarker(
-                [41.75178827591041, -87.59355235954908],
-                {"bubblingMouseEvents": true, "color": "#ef4444", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ef4444", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.0688, "stroke": true, "weight": 2}
-            ).addTo(map_177e961768fcc8ef1036f26f557f2720);
+            var circle_marker_6694fe705d955e41fd114ad255bee87b = L.circleMarker(
+                [41.75128652374007, -87.5921031646818],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.367466666666665, "stroke": true, "weight": 3}
+            ).addTo(map_05c2f05c09007cf0348166ee3a1800b5);
 
 
-        var popup_c1c85a84b26dc6d78a1bb93b0b6b54de = L.popup({
-  "maxWidth": 330,
+        var popup_52ba324c58da311610af33280eda4838 = L.popup({
+  "maxWidth": 320,
 });
 
 
 
-                var html_e344e4cbc98eca517fb6381e3282bb66 = $(`<div id="html_e344e4cbc98eca517fb6381e3282bb66" style="width: 100.0%; height: 100.0%;">     <div style="font-family:Arial,sans-serif;min-width:220px;">         <h3 style="margin:0 0 8px;">Cluster 0</h3>         <b>Relative incident-volume tier:</b> High<br>         <b>Sample incidents:</b> 21,576<br>         <b>Sample share:</b> 14.38%<br>         <b>Most common crime group:</b> BATTERY<br>         <b>Top group share:</b> 20.7%<br>         <hr>         <i>Not a population-adjusted crime-risk measure.</i>     </div>     </div>`)[0];
-                popup_c1c85a84b26dc6d78a1bb93b0b6b54de.setContent(html_e344e4cbc98eca517fb6381e3282bb66);
+                var html_4723639c903e41760819cb1f55335b94 = $(`<div id="html_4723639c903e41760819cb1f55335b94" style="width: 100.0%; height: 100.0%;"><b>Cluster 4</b><br>Relative incident-volume tier: High<br>Recorded incidents in sample: 21,314<br>Sample share: 14.21%<br>Most common crime group: BATTERY<br>Top group share: 20.8%</div>`)[0];
+                popup_52ba324c58da311610af33280eda4838.setContent(html_4723639c903e41760819cb1f55335b94);
 
 
 
-        circle_marker_6775a73516b23b49a85db00e0191ec31.bindPopup(popup_c1c85a84b26dc6d78a1bb93b0b6b54de)
+        circle_marker_6694fe705d955e41fd114ad255bee87b.bindPopup(popup_52ba324c58da311610af33280eda4838)
         ;
 
 
 
 
-            circle_marker_6775a73516b23b49a85db00e0191ec31.bindTooltip(
+            circle_marker_6694fe705d955e41fd114ad255bee87b.bindTooltip(
                 `<div>
-                     Cluster 0 | High volume tier
+                     Cluster 4 — High volume tier
                  </div>`,
                 {
   "sticky": true,
@@ -205,32 +177,32 @@ font-size:13px;
             );
 
 
-            var circle_marker_87981b092c42138ed494a2c31ce705dc = L.circleMarker(
-                [41.96980573558175, -87.67688630327721],
-                {"bubblingMouseEvents": true, "color": "#f59e0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f59e0b", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.202666666666666, "stroke": true, "weight": 2}
-            ).addTo(map_177e961768fcc8ef1036f26f557f2720);
+            var circle_marker_13260a297697cdf1751c9bad480e876a = L.circleMarker(
+                [41.9695705692572, -87.67666777276344],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.5152, "stroke": true, "weight": 3}
+            ).addTo(map_05c2f05c09007cf0348166ee3a1800b5);
 
 
-        var popup_059b0c8dae7c1e807794e0e1e2301946 = L.popup({
-  "maxWidth": 330,
+        var popup_05fc34e42333340a10e5cf23d6d1ab30 = L.popup({
+  "maxWidth": 320,
 });
 
 
 
-                var html_2b720f2d96ce8249bef229b69d9ead91 = $(`<div id="html_2b720f2d96ce8249bef229b69d9ead91" style="width: 100.0%; height: 100.0%;">     <div style="font-family:Arial,sans-serif;min-width:220px;">         <h3 style="margin:0 0 8px;">Cluster 3</h3>         <b>Relative incident-volume tier:</b> Medium<br>         <b>Sample incidents:</b> 19,720<br>         <b>Sample share:</b> 13.15%<br>         <b>Most common crime group:</b> THEFT<br>         <b>Top group share:</b> 31.5%<br>         <hr>         <i>Not a population-adjusted crime-risk measure.</i>     </div>     </div>`)[0];
-                popup_059b0c8dae7c1e807794e0e1e2301946.setContent(html_2b720f2d96ce8249bef229b69d9ead91);
+                var html_3306339a7422582b36c907fb24cb2df7 = $(`<div id="html_3306339a7422582b36c907fb24cb2df7" style="width: 100.0%; height: 100.0%;"><b>Cluster 0</b><br>Relative incident-volume tier: Medium<br>Recorded incidents in sample: 19,716<br>Sample share: 13.14%<br>Most common crime group: THEFT<br>Top group share: 31.6%</div>`)[0];
+                popup_05fc34e42333340a10e5cf23d6d1ab30.setContent(html_3306339a7422582b36c907fb24cb2df7);
 
 
 
-        circle_marker_87981b092c42138ed494a2c31ce705dc.bindPopup(popup_059b0c8dae7c1e807794e0e1e2301946)
+        circle_marker_13260a297697cdf1751c9bad480e876a.bindPopup(popup_05fc34e42333340a10e5cf23d6d1ab30)
         ;
 
 
 
 
-            circle_marker_87981b092c42138ed494a2c31ce705dc.bindTooltip(
+            circle_marker_13260a297697cdf1751c9bad480e876a.bindTooltip(
                 `<div>
-                     Cluster 3 | Medium volume tier
+                     Cluster 0 — Medium volume tier
                  </div>`,
                 {
   "sticky": true,
@@ -238,32 +210,32 @@ font-size:13px;
             );
 
 
-            var circle_marker_52c72b38cc4571b7bebca5612f80f98c = L.circleMarker(
-                [41.77921015800385, -87.69677026974324],
-                {"bubblingMouseEvents": true, "color": "#f59e0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f59e0b", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.1172, "stroke": true, "weight": 2}
-            ).addTo(map_177e961768fcc8ef1036f26f557f2720);
+            var circle_marker_45b4dd849f0ea4181400783c0d94a871 = L.circleMarker(
+                [41.77854356398256, -87.69551851212474],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.573866666666667, "stroke": true, "weight": 3}
+            ).addTo(map_05c2f05c09007cf0348166ee3a1800b5);
 
 
-        var popup_26868677c12b567789ffcc314de36181 = L.popup({
-  "maxWidth": 330,
+        var popup_04628877009e0c77bc9c7dcf3a2a51e6 = L.popup({
+  "maxWidth": 320,
 });
 
 
 
-                var html_2d3c234a13dc387c0a3fa88e838e7da3 = $(`<div id="html_2d3c234a13dc387c0a3fa88e838e7da3" style="width: 100.0%; height: 100.0%;">     <div style="font-family:Arial,sans-serif;min-width:220px;">         <h3 style="margin:0 0 8px;">Cluster 6</h3>         <b>Relative incident-volume tier:</b> Medium<br>         <b>Sample incidents:</b> 17,394<br>         <b>Sample share:</b> 11.60%<br>         <b>Most common crime group:</b> BATTERY<br>         <b>Top group share:</b> 19.5%<br>         <hr>         <i>Not a population-adjusted crime-risk measure.</i>     </div>     </div>`)[0];
-                popup_26868677c12b567789ffcc314de36181.setContent(html_2d3c234a13dc387c0a3fa88e838e7da3);
+                var html_f90bd465b0fe2aaf765f80a42162dfc1 = $(`<div id="html_f90bd465b0fe2aaf765f80a42162dfc1" style="width: 100.0%; height: 100.0%;"><b>Cluster 1</b><br>Relative incident-volume tier: Medium<br>Recorded incidents in sample: 17,951<br>Sample share: 11.97%<br>Most common crime group: BATTERY<br>Top group share: 19.0%</div>`)[0];
+                popup_04628877009e0c77bc9c7dcf3a2a51e6.setContent(html_f90bd465b0fe2aaf765f80a42162dfc1);
 
 
 
-        circle_marker_52c72b38cc4571b7bebca5612f80f98c.bindPopup(popup_26868677c12b567789ffcc314de36181)
+        circle_marker_45b4dd849f0ea4181400783c0d94a871.bindPopup(popup_04628877009e0c77bc9c7dcf3a2a51e6)
         ;
 
 
 
 
-            circle_marker_52c72b38cc4571b7bebca5612f80f98c.bindTooltip(
+            circle_marker_45b4dd849f0ea4181400783c0d94a871.bindTooltip(
                 `<div>
-                     Cluster 6 | Medium volume tier
+                     Cluster 1 — Medium volume tier
                  </div>`,
                 {
   "sticky": true,
@@ -271,32 +243,32 @@ font-size:13px;
             );
 
 
-            var circle_marker_fb8eff6f906f85f30fa73335d873a84c = L.circleMarker(
-                [41.80934842001818, -87.62528095542277],
-                {"bubblingMouseEvents": true, "color": "#eab308", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eab308", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.162866666666668, "stroke": true, "weight": 2}
-            ).addTo(map_177e961768fcc8ef1036f26f557f2720);
+            var circle_marker_e2fbdfda4cbc69d3b11dd6ee17913cd9 = L.circleMarker(
+                [41.80949224474616, -87.6244698377295],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.032533333333333, "stroke": true, "weight": 3}
+            ).addTo(map_05c2f05c09007cf0348166ee3a1800b5);
 
 
-        var popup_4638b608f2cf702f88880673da25f4c3 = L.popup({
-  "maxWidth": 330,
+        var popup_7c24ca1c22d6dc3bada4a54049dcae2e = L.popup({
+  "maxWidth": 320,
 });
 
 
 
-                var html_e2c4bbe9d3b5f286d3395a15c42f1a26 = $(`<div id="html_e2c4bbe9d3b5f286d3395a15c42f1a26" style="width: 100.0%; height: 100.0%;">     <div style="font-family:Arial,sans-serif;min-width:220px;">         <h3 style="margin:0 0 8px;">Cluster 5</h3>         <b>Relative incident-volume tier:</b> Low<br>         <b>Sample incidents:</b> 15,349<br>         <b>Sample share:</b> 10.23%<br>         <b>Most common crime group:</b> THEFT<br>         <b>Top group share:</b> 19.7%<br>         <hr>         <i>Not a population-adjusted crime-risk measure.</i>     </div>     </div>`)[0];
-                popup_4638b608f2cf702f88880673da25f4c3.setContent(html_e2c4bbe9d3b5f286d3395a15c42f1a26);
+                var html_bb30aa46fdc46f37c64e922324668f78 = $(`<div id="html_bb30aa46fdc46f37c64e922324668f78" style="width: 100.0%; height: 100.0%;"><b>Cluster 5</b><br>Relative incident-volume tier: Low<br>Recorded incidents in sample: 15,061<br>Sample share: 10.04%<br>Most common crime group: THEFT<br>Top group share: 20.3%</div>`)[0];
+                popup_7c24ca1c22d6dc3bada4a54049dcae2e.setContent(html_bb30aa46fdc46f37c64e922324668f78);
 
 
 
-        circle_marker_fb8eff6f906f85f30fa73335d873a84c.bindPopup(popup_4638b608f2cf702f88880673da25f4c3)
+        circle_marker_e2fbdfda4cbc69d3b11dd6ee17913cd9.bindPopup(popup_7c24ca1c22d6dc3bada4a54049dcae2e)
         ;
 
 
 
 
-            circle_marker_fb8eff6f906f85f30fa73335d873a84c.bindTooltip(
+            circle_marker_e2fbdfda4cbc69d3b11dd6ee17913cd9.bindTooltip(
                 `<div>
-                     Cluster 5 | Low volume tier
+                     Cluster 5 — Low volume tier
                  </div>`,
                 {
   "sticky": true,
@@ -304,32 +276,32 @@ font-size:13px;
             );
 
 
-            var circle_marker_29f96758185f20c76c0e6b5dac82067b = L.circleMarker(
-                [41.69710294345151, -87.63251702910921],
-                {"bubblingMouseEvents": true, "color": "#eab308", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eab308", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.529533333333333, "stroke": true, "weight": 2}
-            ).addTo(map_177e961768fcc8ef1036f26f557f2720);
+            var circle_marker_ec95f40d37be07b97396b244de75ad1b = L.circleMarker(
+                [41.69702908258684, -87.63242381249778],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.384533333333334, "stroke": true, "weight": 3}
+            ).addTo(map_05c2f05c09007cf0348166ee3a1800b5);
 
 
-        var popup_f367bf190858e908e44effd458d4a7e9 = L.popup({
-  "maxWidth": 330,
+        var popup_e2139edb5323f2f1ee1d378021fad581 = L.popup({
+  "maxWidth": 320,
 });
 
 
 
-                var html_82b40d63a8cb9d6ce75474efacc0cf98 = $(`<div id="html_82b40d63a8cb9d6ce75474efacc0cf98" style="width: 100.0%; height: 100.0%;">     <div style="font-family:Arial,sans-serif;min-width:220px;">         <h3 style="margin:0 0 8px;">Cluster 4</h3>         <b>Relative incident-volume tier:</b> Low<br>         <b>Sample incidents:</b> 11,849<br>         <b>Sample share:</b> 7.90%<br>         <b>Most common crime group:</b> BATTERY<br>         <b>Top group share:</b> 18.9%<br>         <hr>         <i>Not a population-adjusted crime-risk measure.</i>     </div>     </div>`)[0];
-                popup_f367bf190858e908e44effd458d4a7e9.setContent(html_82b40d63a8cb9d6ce75474efacc0cf98);
+                var html_b7cae78e6b97f850a4da6cae751d4f12 = $(`<div id="html_b7cae78e6b97f850a4da6cae751d4f12" style="width: 100.0%; height: 100.0%;"><b>Cluster 2</b><br>Relative incident-volume tier: Low<br>Recorded incidents in sample: 11,971<br>Sample share: 7.98%<br>Most common crime group: BATTERY<br>Top group share: 18.7%</div>`)[0];
+                popup_e2139edb5323f2f1ee1d378021fad581.setContent(html_b7cae78e6b97f850a4da6cae751d4f12);
 
 
 
-        circle_marker_29f96758185f20c76c0e6b5dac82067b.bindPopup(popup_f367bf190858e908e44effd458d4a7e9)
+        circle_marker_ec95f40d37be07b97396b244de75ad1b.bindPopup(popup_e2139edb5323f2f1ee1d378021fad581)
         ;
 
 
 
 
-            circle_marker_29f96758185f20c76c0e6b5dac82067b.bindTooltip(
+            circle_marker_ec95f40d37be07b97396b244de75ad1b.bindTooltip(
                 `<div>
-                     Cluster 4 | Low volume tier
+                     Cluster 2 — Low volume tier
                  </div>`,
                 {
   "sticky": true,
@@ -337,37 +309,55 @@ font-size:13px;
             );
 
 
-            var circle_marker_b762eddf8327480840c34a1261e0950b = L.circleMarker(
-                [41.94924729480648, -87.77871994601723],
-                {"bubblingMouseEvents": true, "color": "#eab308", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#eab308", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.116999999999999, "stroke": true, "weight": 2}
-            ).addTo(map_177e961768fcc8ef1036f26f557f2720);
+            var circle_marker_ce04a9b743284df5d2f703c4b4d4590f = L.circleMarker(
+                [41.94950341850721, -87.77803535386064],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.75, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.874666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_05c2f05c09007cf0348166ee3a1800b5);
 
 
-        var popup_b2567bceaeff5bbe016fccd7898849d7 = L.popup({
-  "maxWidth": 330,
+        var popup_9242ce532325aa23ba0ad9346104db4f = L.popup({
+  "maxWidth": 320,
 });
 
 
 
-                var html_a44198c549753c7d27de8d373d20cb47 = $(`<div id="html_a44198c549753c7d27de8d373d20cb47" style="width: 100.0%; height: 100.0%;">     <div style="font-family:Arial,sans-serif;min-width:220px;">         <h3 style="margin:0 0 8px;">Cluster 7</h3>         <b>Relative incident-volume tier:</b> Low<br>         <b>Sample incidents:</b> 10,965<br>         <b>Sample share:</b> 7.31%<br>         <b>Most common crime group:</b> THEFT<br>         <b>Top group share:</b> 23.3%<br>         <hr>         <i>Not a population-adjusted crime-risk measure.</i>     </div>     </div>`)[0];
-                popup_b2567bceaeff5bbe016fccd7898849d7.setContent(html_a44198c549753c7d27de8d373d20cb47);
+                var html_e2013d25b1bad64cc690bf75192cd50e = $(`<div id="html_e2013d25b1bad64cc690bf75192cd50e" style="width: 100.0%; height: 100.0%;"><b>Cluster 3</b><br>Relative incident-volume tier: Low<br>Recorded incidents in sample: 11,015<br>Sample share: 7.34%<br>Most common crime group: THEFT<br>Top group share: 23.1%</div>`)[0];
+                popup_9242ce532325aa23ba0ad9346104db4f.setContent(html_e2013d25b1bad64cc690bf75192cd50e);
 
 
 
-        circle_marker_b762eddf8327480840c34a1261e0950b.bindPopup(popup_b2567bceaeff5bbe016fccd7898849d7)
+        circle_marker_ce04a9b743284df5d2f703c4b4d4590f.bindPopup(popup_9242ce532325aa23ba0ad9346104db4f)
         ;
 
 
 
 
-            circle_marker_b762eddf8327480840c34a1261e0950b.bindTooltip(
+            circle_marker_ce04a9b743284df5d2f703c4b4d4590f.bindTooltip(
                 `<div>
-                     Cluster 7 | Low volume tier
+                     Cluster 3 — Low volume tier
                  </div>`,
                 {
   "sticky": true,
 }
             );
+
+
+            var layer_control_3f3df2be38d726d68b9991a3c420ff57_layers = {
+                base_layers : {
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_3f3df2be38d726d68b9991a3c420ff57 = L.control.layers(
+                layer_control_3f3df2be38d726d68b9991a3c420ff57_layers.base_layers,
+                layer_control_3f3df2be38d726d68b9991a3c420ff57_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_05c2f05c09007cf0348166ee3a1800b5);
+
 
 </script>
 </html>
