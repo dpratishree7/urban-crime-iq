@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
-from .routers import meta
+from .routers import meta, olap
 
 app = FastAPI(title="Crime Intelligence API")
 
@@ -13,7 +12,7 @@ app.add_middleware(
 )
 
 app.include_router(meta.router)
-
+app.include_router(olap.router)
 
 @app.get("/api/health")
 def health():
