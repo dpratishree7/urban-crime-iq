@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field, model_validator
 
 
 class Area(BaseModel):
@@ -101,3 +101,35 @@ class HotspotsResponse(BaseModel):
     risk_basis: str
     note: str
     clusters: list[Cluster]
+
+
+class LookupRequest(BaseModel):
+    latitude: float | None = Field(None, ge=-90, le=90)
+    longitude: float | None = Field(None, ge=-180, le=180)
+    community_area: int | None = Field(None, ge=1, le=77)
+
+    @model_validator(mode="after")
+    def check_inputs(self):
+        has_point = self.latitude is not None or self.longitude is not None
+        if has_point and self.community_area is not None:
+            raise ValueError("Send either latitude and longitude, or community_area, not both")
+        if has_point and (self.latitude is None or self.longitude is None):
+            raise ValueError("latitude and longitude must be sent together")
+        if not has_point and self.community_area is None:
+            raise ValueError("Send latitude and longitude, or community_area")
+        return self
+
+
+class LookupResponse(BaseModel):
+    mode: str
+    community_area: int | None
+    area_name: str | None
+    latitude: float
+    longitude: float
+    cluster: int
+    risk_level: str
+    top_crime_type: str
+    distance_to_centre_km: float
+    centre_lat: float
+    centre_lon: float
+    note: str
