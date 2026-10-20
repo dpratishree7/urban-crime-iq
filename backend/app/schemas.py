@@ -83,3 +83,21 @@ class HeatCell(BaseModel):
 class HeatmapResponse(BaseModel):
     filters: dict
     cells: list[HeatCell]
+
+class Cluster(BaseModel):
+    cluster: int
+    centre_lat: float
+    centre_lon: float
+    sample_size: int
+    share_pct: float
+    top_crime_type: str
+    top_crime_share_pct: float
+    risk_level: str
+
+
+class HotspotsResponse(BaseModel):
+    k: int
+    sample_total: int
+    risk_basis: str
+    note: str
+    clusters: list[Cluster]
