@@ -133,3 +133,28 @@ class LookupResponse(BaseModel):
     centre_lat: float
     centre_lon: float
     note: str
+
+class ForecastRequest(BaseModel):
+    community_area: int = Field(ge=1, le=77)
+    days: int = Field(7, ge=1, le=7)
+
+
+class PredictedDay(BaseModel):
+    date: str
+    predicted_crimes: float
+
+
+class ActualDay(BaseModel):
+    date: str
+    crimes: int
+
+
+class ForecastResponse(BaseModel):
+    community_area: int
+    area_name: str
+    data_as_of: str
+    days: int
+    forecast: list[PredictedDay]
+    recent_actuals: list[ActualDay]
+    model_mae_all_areas: float
+    note: str
