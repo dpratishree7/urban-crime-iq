@@ -192,3 +192,22 @@ class ViolenceResponse(BaseModel):
     model_precision_violent_pct: float
     model_recall_violent_pct: float
     note: str
+
+class Rule(BaseModel):
+    conditions: dict[str, str]
+    outcome: str
+    support_pct: float
+    confidence_pct: float
+    lift: float
+    meaning: str
+
+
+class PatternsResponse(BaseModel):
+    chosen: dict[str, str]
+    matched: int
+    returned: int
+    rules: list[Rule]
+    districts_with_rules: list[str]
+    settings: dict
+    message: str
+    note: str

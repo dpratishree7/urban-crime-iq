@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[2]          # project root
 MODELS = ROOT / "ml" / "models"
 ASSETS = ROOT / "ml" / "results" / "api_assets"
 CENSUS_COLS = ["poverty_rate", "per_capita_income", "population"]
+RULE_FIELDS = {"district", "location_group", "time_of_day", "is_weekend", "season"}
+RULE_OUTCOMES = {"THEFT", "BATTERY", "ALL OTHER"}
 
 
 class ModelStore:
@@ -29,6 +31,7 @@ class ModelStore:
         self.il_holidays = None
         self.data_as_of = None         # last date with crime data (Timestamp)
         self.tree = None
+        self.rules = None              # list of dicts, sorted by lift (high to low)
 
     def load(self):
         self.kmeans = joblib.load(MODELS / "kmeans.pkl")
@@ -39,6 +42,7 @@ class ModelStore:
               f"{len(self.clusters)} cluster rows, {len(self.area_points)} area locations")
         self._load_regression()
         self._load_tree()
+        self._load_rules()
 
     # ---------------- K-Means ----------------
     def to_km(self, lat: float, lon: float) -> np.ndarray:
@@ -188,8 +192,46 @@ class ModelStore:
         proba = pipe.predict_proba(self.violence_row(**inputs))[0]
         return float(proba[list(pipe.classes_).index(1)])
 
+    # ---------------- Association rules (patterns) ----------------
+    def _load_rules(self):
+        df = pd.read_csv(MODELS / "rules.csv")
+        needed = {"antecedent_str", "consequent_str", "support", "confidence", "lift"}
+        if not needed <= set(df.columns):
+            raise RuntimeError(f"rules.csv is missing columns: {sorted(needed - set(df.columns))}")
+        rules = []
+        for r in df.itertuples():
+            conditions = {}
+            for part in str(r.antecedent_str).split(" AND "):
+                key, _, value = part.partition("=")
+                if key not in RULE_FIELDS or not value:
+                    raise RuntimeError(f"Unexpected condition '{part}' in rules.csv")
+                conditions[key] = value
+            key, _, outcome = str(r.consequent_str).partition("=")
+            if key != "crime_group" or outcome not in RULE_OUTCOMES:
+                raise RuntimeError(f"Unexpected outcome '{r.consequent_str}' in rules.csv")
+            rules.append({"conditions": conditions, "outcome": outcome,
+                          "support": float(r.support), "confidence": float(r.confidence),
+                          "lift": float(r.lift)})
+        self.rules = sorted(rules, key=lambda x: x["lift"], reverse=True)
+        districts = sorted({v for r in rules for k, v in r["conditions"].items() if k == "district"})
+        print(f"Loaded association rules: {len(self.rules)} rules, districts with rules: {districts}")
+
+    def match_rules(self, chosen: dict, outcome=None) -> list:
+        """Rules whose conditions are ALL among the chosen ones (best lift first).
+        With nothing chosen, every rule is returned."""
+        items = set(chosen.items())
+        found = []
+        for r in self.rules:
+            if chosen and not set(r["conditions"].items()) <= items:
+                continue
+            if outcome is not None and r["outcome"] != outcome:
+                continue
+            found.append(r)
+        return found
+
     def loaded(self) -> list[str]:
-        names = {"kmeans": self.kmeans, "regression": self.regression, "tree": self.tree}
+        names = {"kmeans": self.kmeans, "regression": self.regression, "tree": self.tree,
+                 "rules": self.rules}
         return [name for name, obj in names.items() if obj is not None]
 
 
