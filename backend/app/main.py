@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from .model_store import store
-from .routers import forecast, hotspots, meta, olap
+from .routers import forecast, hotspots, meta, olap, violence
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -25,7 +25,7 @@ app.include_router(meta.router)
 app.include_router(olap.router)
 app.include_router(hotspots.router)
 app.include_router(forecast.router)
-
+app.include_router(violence.router)
 
 @app.get("/api/health")
 def health():

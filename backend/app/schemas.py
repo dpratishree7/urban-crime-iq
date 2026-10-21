@@ -1,4 +1,6 @@
-from pydantic import BaseModel, Field, model_validator
+from typing import Literal
+
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 
 class Area(BaseModel):
@@ -157,4 +159,36 @@ class ForecastResponse(BaseModel):
     forecast: list[PredictedDay]
     recent_actuals: list[ActualDay]
     model_mae_all_areas: float
+    note: str
+
+VALID_DISTRICTS = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20,
+                   22, 24, 25, 31}          # the 23 districts in the warehouse (/api/meta)
+
+
+class ViolenceRequest(BaseModel):
+    hour: int = Field(ge=0, le=23)
+    domestic: bool
+    day_of_week: int = Field(ge=0, le=6, description="0 = Monday ... 6 = Sunday")
+    season: Literal["WINTER", "SPRING", "SUMMER", "FALL"]
+    location_group: Literal["COMMERCIAL", "OTHER", "RESIDENTIAL", "SCHOOL", "STREET", "TRANSPORT"]
+    community_area: int = Field(ge=1, le=77)
+    district: int
+
+    @field_validator("district")
+    @classmethod
+    def check_district(cls, v):
+        if v not in VALID_DISTRICTS:
+            raise ValueError(f"district {v} does not exist; valid districts: {sorted(VALID_DISTRICTS)}")
+        return v
+
+
+class ViolenceResponse(BaseModel):
+    probability_violent: float
+    prediction: str
+    threshold: float
+    average_violent_share_pct: float
+    relative_to_average: float
+    model_accuracy_pct: float
+    model_precision_violent_pct: float
+    model_recall_violent_pct: float
     note: str

@@ -28,6 +28,7 @@ class ModelStore:
         self.month_weather = {}        # month -> (avg_temperature, avg_rainfall)
         self.il_holidays = None
         self.data_as_of = None         # last date with crime data (Timestamp)
+        self.tree = None
 
     def load(self):
         self.kmeans = joblib.load(MODELS / "kmeans.pkl")
@@ -37,6 +38,7 @@ class ModelStore:
         print(f"Loaded K-Means: k={self.kmeans['k']}, "
               f"{len(self.clusters)} cluster rows, {len(self.area_points)} area locations")
         self._load_regression()
+        self._load_tree()
 
     # ---------------- K-Means ----------------
     def to_km(self, lat: float, lon: float) -> np.ndarray:
@@ -160,8 +162,34 @@ class ModelStore:
             series.loc[day] = yhat
         return actual, predictions
 
+    # ---------------- Decision Tree (violence risk) ----------------
+    def _load_tree(self):
+        self.tree = joblib.load(MODELS / "tree.pkl")
+        probe = self.violence_row(hour=12, domestic=0, day_of_week=2, season="SUMMER",
+                                  location_group="STREET", community_area=25, district=15)
+        pipe = self.tree["pipeline"]
+        proba = pipe.predict_proba(probe)[0]
+        if sorted(list(pipe.classes_)) != [0, 1] or abs(float(proba.sum()) - 1.0) > 1e-6:
+            raise RuntimeError("Decision Tree self-check failed: unexpected classes "
+                               f"{list(pipe.classes_)} or probabilities {proba}")
+        print(f"Loaded decision tree: {len(self.tree['features'])} features, self-check passed")
+
+    def violence_row(self, hour, domestic, day_of_week, season, location_group,
+                     community_area, district) -> pd.DataFrame:
+        """One row with the tree's features, in the order it was trained on."""
+        row = {"hour": int(hour), "domestic": int(domestic), "day_of_week": int(day_of_week),
+               "season": str(season), "location_group": str(location_group),
+               "community_area": int(community_area), "district": int(district)}
+        return pd.DataFrame([row])[list(self.tree["features"])]
+
+    def predict_violence(self, **inputs) -> float:
+        """Probability (0 to 1) that an incident with these features is violent."""
+        pipe = self.tree["pipeline"]
+        proba = pipe.predict_proba(self.violence_row(**inputs))[0]
+        return float(proba[list(pipe.classes_).index(1)])
+
     def loaded(self) -> list[str]:
-        names = {"kmeans": self.kmeans, "regression": self.regression}
+        names = {"kmeans": self.kmeans, "regression": self.regression, "tree": self.tree}
         return [name for name, obj in names.items() if obj is not None]
 
 
